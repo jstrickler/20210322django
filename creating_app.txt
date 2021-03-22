@@ -1,0 +1,30 @@
+STEPS TO CREATE ONE OR MORE DJANGO APPS
+
+1. Create a project/site
+
+cookiecutter SETUP/cookiecutter-django
+<add slug>
+
+
+2. Create an app
+cd <slug>
+cookiecutter ../SETUP/cookiecutter-django-app   # linux/mac
+cookiecutter ..\SETUP\cookiecutter-django-app   # windows
+
+3. Configure app
+add app to "INSTALLED_APPS" in site/site/settings.py
+
+    ...
+    appname.apps.AppnameConfig
+
+4. create views
+add one or more view functions to site/app/views.py
+
+5. configure URLS
+add entry to site/site/urls.py to delegate to app
+add entries to site/app/urls.py for each page
+
+6. deploy
+in site folder,
+
+python manage.py runserver
