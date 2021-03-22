@@ -1,0 +1,11 @@
+{% extends "upload/upload_base.html" %}
+{% block content %}
+<div class="container">
+    <h1>{{ message }}</h1>
+</div>
+Click <a href="{% url 'upload:simple_upload' %}">HERE</a> to upload files.
+<h2>OR</h2>
+Click <a href="{% url 'upload:model_form_upload' %}">HERE</a> to upload files.
+
+{% endblock content %}
+

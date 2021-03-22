@@ -1,0 +1,9 @@
+{% extends "export/export_base.html" %}
+{% block content %}
+<div class="container">
+    <h1>{{ message }}</h1>
+    <div><a href="{% url 'export:export_csv' %}">Export superhero to CSV</a></div>
+    <div><a href="{% url 'export:export_pdf' %}">Export superhero to PDF</a></div>
+</div>
+{% endblock content %}
+

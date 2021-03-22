@@ -1,0 +1,27 @@
+{% extends "core/core_base.html" %}
+{% load i18n %}
+{% block content %}
+<div class="container">
+    <div class="container">
+        <h1>{{ message }}</h1>
+        </div>
+<div class="container">
+    {% for hero in superheroes %}
+    <div class="row">
+        <div class="col">{% trans "Name" %}</div>
+        <div class="col">{{ hero.name }}</div>
+    </div>
+    <div class="row">
+        <div class="col">{% trans "Secret Identity" %}</div>
+        <div class="col">{{ hero.secret_identity }}</div>
+    </div>
+    <div class="row">
+        <div class="col">{% trans "City" %}</div>
+        <div class="col">{{ hero.city.name }}</div>
+    </div>
+    <hr/>
+    {% endfor %}
+</div>
+</div>
+{% endblock content %}
+

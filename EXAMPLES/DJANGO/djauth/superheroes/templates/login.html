@@ -1,0 +1,27 @@
+{% extends "superheroes_base.html" %}
+{% block content %}
+<div class="container">
+    {% if form %}
+        <h2>Login</h2>
+        {% if invalid_form %}
+        <p>Your form has the following errors:</p>
+        {% endif %}
+        <form action="{% url 'superheroes:login' %}" method="post">
+                {% csrf_token %}
+                {% for field in form %}
+                    {{ field.label }}<br>
+                    {{field}}<br>
+                {% endfor %}
+                <br>
+                <input type="hidden" name="next" value="{{ request.GET.next }}"/> {# Hidden field so we can have this available in the post #}
+                <input type="submit" value="Login" />
+        </form>
+    {% else %}
+        {% if result %}
+            <p>Successfully logged in!</p>
+        {% else %}
+            <p>Log in failed.</p>
+        {% endif %}
+    {% endif %}
+</div>
+{% endblock content %}

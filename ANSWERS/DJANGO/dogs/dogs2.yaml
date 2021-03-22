@@ -1,0 +1,7 @@
+- model: dogs_core.dog
+  fields:
+    name: Testino
+    sex: m
+    breed: English Shepard
+    is_neutered: true
+    weight: 90
