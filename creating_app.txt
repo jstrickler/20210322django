@@ -2,7 +2,8 @@ STEPS TO CREATE ONE OR MORE DJANGO APPS
 
 1. Create a project/site
 
-cookiecutter SETUP/cookiecutter-django
+cookiecutter SETUP/cookiecutter-django  # mac/linux
+cookiecutter SETUP\cookiecutter-django  # windows
 <add slug>
 
 
