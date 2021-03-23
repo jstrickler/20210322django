@@ -1,22 +1,24 @@
 """
 URL Configuration for bands
 """
-from django.conf.urls import url
+from django.urls import path
 from . import views   # import views from app
 from . import classviews
+
+app_name = 'bands'
 
 urlpatterns = [
     # add url patterns for the bands app here
 
     # Example:
-    url(r'^$', views.home, name='home'),
-    url(r'^sorted$', views.bands_sorted, name='bandssorted'),
-    url(r'^list$', views.bands_list, name='bandslist'),
-    url(r'^classlist$', classviews.BandListView.as_view(), name='bandsclasslist'),
-    url(r'^class/(?P<pk>\d+)$', classviews.BandDetailView.as_view(), name='bandclassdetails'),
-    url(r'^listmore$', views.bands_list_more, name='bandslistmore'),
-    url(r'^genre/(?P<genre_name>[\w\s]+)$', views.bands_by_genre, name='bandsbygenre'),
-    url(r'^search/(?P<search_term>[\w\s]+)$', views.bands_search, name='bandssearch'),
-    url(r'^(?P<id>\d+)$', views.band_details, name='banddetails'),
-    url(r'^(?P<band_name>[\w\s]+)$', views.band_basic, name='bandbasic'),
+    path('', views.home, name='home'),
+    path('sorted', views.bands_sorted, name='bandssorted'),
+    path('list', views.bands_list, name='bandslist'),
+    path('classlist', classviews.BandListView.as_view(), name='bandsclasslist'),
+    path('class/<int:pk>', classviews.BandDetailView.as_view(), name='bandclassdetails'),
+    path('listmore', views.bands_list_more, name='bandslistmore'),
+    path('genre/<str:genre_name>', views.bands_by_genre, name='bandsbygenre'),
+    path('search/<str:search_term>', views.bands_search, name='bandssearch'),
+    path('<int:id>', views.band_details, name='banddetails'),
+    path('<str:band_name>', views.band_basic, name='bandbasic'),
 ]
