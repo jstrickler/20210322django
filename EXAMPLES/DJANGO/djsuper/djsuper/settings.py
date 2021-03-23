@@ -69,7 +69,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],  # add any other template dirs here
-        'APP_DIRS': True,  # templates are in APPNAME/templates
+        'APP_DIRS': True,  # templates are in APPNAME/templates   # use APPNAME/templates/APPNAME/template.html
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',

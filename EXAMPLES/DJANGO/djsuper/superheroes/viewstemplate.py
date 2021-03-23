@@ -13,7 +13,7 @@ def hero_hard_way(request, hero_name):
         'real_name': hero.real_name,
         'secret_identity': hero.secret_identity,
     }
-    t = get_template('hero_basic.html')
+    t = get_template('superheroes/hero_basic.html')
     page = t.render(data)
     return HttpResponse(page)
 
@@ -24,35 +24,36 @@ def hero_easy_way(request, hero_name):
         'real_name': hero.real_name,
         'secret_identity': hero.secret_identity,
     }
-    return render(request, 'hero_basic.html', data)
+    return render(request, 'superheroes/hero_basic.html', data)
 
 def hero_lookups(request, hero_name):
     hero =  get_object_or_404(Superhero, name=hero_name)
     data = {
         'hero': hero,
     }
-    return render(request, 'hero_lookups.html', data)
+    return render(request, 'superheroes/hero_lookups.html', data)
 
 def hero_filters(request, hero_name):
     hero =  get_object_or_404(Superhero, name=hero_name)
     data = {
         'hero': hero,
     }
-    return render(request, 'hero_filters.html', data)
+    return render(request, 'superheroes/hero_filters.html', data)
 
 def hero_tags(request, hero_name):
     hero =  get_object_or_404(Superhero, name=hero_name)
     data = {
         'hero': hero,
     }
-    return render(request, 'hero_tags.html', data)
+    return render(request, 'superheroes/hero_tags.html', data)
 
 def hero_details(request, hero_name):
     hero =  get_object_or_404(Superhero, name=hero_name)
     data = {
         'hero': hero,
+        'note': '<h1>HELLO THIS IS A NOTE</h1>',
     }
-    return render(request, 'hero_details.html', data)
+    return render(request, 'superheroes/hero_details.html', data)
 
 def hero_escape(request, hero_name):
     hero =  get_object_or_404(Superhero, name=hero_name)
@@ -60,14 +61,14 @@ def hero_escape(request, hero_name):
         'hero': hero,
         'html_fragment': '<i>Some HTML</i>'
     }
-    return render(request, 'hero_escape.html', data)
+    return render(request, 'superheroes/hero_escape.html', data)
 
 def hero_urls(request):
     context = {
         'title': 'Superheroes',
         'superheroes': Superhero.objects.all()
     }
-    return render(request, 'hero_urls.html', context)
+    return render(request, 'superheroes/hero_urls.html', context)
 
 def hero_static(request, hero_name):
     hero =  get_object_or_404(Superhero, name=hero_name)
@@ -75,4 +76,4 @@ def hero_static(request, hero_name):
         'hero': hero,
         'image_name': hero.name.lower().replace(' ', '_')
     }
-    return render(request, 'hero_static.html', data)
+    return render(request, 'superheroes/hero_static.html', data)
