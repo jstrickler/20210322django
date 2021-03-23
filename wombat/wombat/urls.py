@@ -16,7 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 # from APP.views import view
-from spam.views import home, sandwich
 
 urlpatterns = [
     path('admin/', admin.site.urls),

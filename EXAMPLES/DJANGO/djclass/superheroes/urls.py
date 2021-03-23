@@ -6,6 +6,8 @@ from django.urls import path
 from django.views.generic import TemplateView
 from . import views
 
+app_name = 'superheroes'
+
 urlpatterns = [
     # welcome page, no class-based views
     path(
@@ -27,35 +29,35 @@ urlpatterns = [
         views.HeroListViewMinimal.as_view(),
         name="minimallist",
     ),
-    url(
-        r'(?i)minimaldetails/(?P<pk>\d+)$',
+    path(
+        'minimaldetails/<int:pk>',
         views.HeroDetailViewMinimal.as_view(),
         name="minimaldetails",
     ),
 
     #
-    url(
-        r'(?i)genericcontext$',
+    path(
+        'genericcontext',
         views.GenericContext.as_view(),
         name="genericcontext",
     ),
-    url(
-        r'(?i)genericlist$',
+    path(
+        'genericlist',
         views.HeroListView.as_view(),
         name="genericlist",
     ),
-    url(
-        r'(?i)genericdetail/(?P<pk>\d+)/$',
+    path(
+        'genericdetail/<int:pk>',
         views.HeroDetailView.as_view(),
         name="genericdetail",
     ),
-    url(
-        r'(?i)herocreate/$',
+    path(
+        'herocreate',
         views.HeroCreateView.as_view(),
         name="herocreate",
     ),
-    url(
-        r'(?i)heroupdate/(?P<pk>\d+)/$',
+    path(
+        'heroupdate/<int:pk>',
         views.HeroUpdateView.as_view(),
         name="heroupdate",
     ),
