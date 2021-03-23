@@ -1,12 +1,14 @@
 """
 URL Configuration for dogs
 """
-from django.conf.urls import url
+from django.urls import path
 from . import views   # import views from app
+
+app_name = 'dogs'
 
 urlpatterns = [
     # add url patterns for the dogs app here
 
     # Example:
-   url(r'^$', views.home, name='home'),
+   path('', views.home, name='home'),
 ]

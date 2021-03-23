@@ -1,11 +1,13 @@
 """
 URL Configuration for export
 """
-from django.conf.urls import url
+from django.urls import path
 from . import views   # import views from app
 
+app_name = "export"
+
 urlpatterns = [
-    url(r'^$', views.home, name='home'),
-    url(r'^export_csv$', views.export_csv, name='export_csv'),
-    url(r'^export_pdf$', views.export_pdf, name='export_pdf'),
+    path('^$', views.home, name='home'),
+    path('export_csv', views.export_csv, name='export_csv'),
+    path('export_pdf', views.export_pdf, name='export_pdf'),
 ]

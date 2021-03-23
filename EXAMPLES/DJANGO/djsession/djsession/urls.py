@@ -19,7 +19,7 @@ Including another (usually an app's) URLconf:
     -----------------------------------------------------------------------------------
     NOTE: when using the namespace argument with include(), the app's urls.py MUST have
 
-        app_name="APPNAME" 
+        app_name="APPNAME"
 
     before  urlpatterns = ...
     -----------------------------------------------------------------------------------
@@ -51,10 +51,4 @@ urlpatterns = [
 
 ]
 
-# include Django Debug toolbar if DEBUG is set
-if settings.DEBUG:
-    import debug_toolbar
-    urlpatterns = [
-        path('__debug__', include(debug_toolbar.urls)),
-    ] + urlpatterns
 
