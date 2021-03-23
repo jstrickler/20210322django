@@ -15,20 +15,12 @@ Including another (usually an app's) URLconf:
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls', namespace="blog"))
 """
-from django.conf import settings
-from django.conf.urls import url, include
+from django.urls import path, include
 from django.contrib import admin
 
 # site-wide route mapping
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     # example
-    url(r'^bands/', include('bands.urls', namespace="bands")),
+    path('bands/', include('bands.urls', namespace="bands")),
 ]
-
-# include Django Debug toolbar if DEBUG is set
-if settings.DEBUG:
-    import debug_toolbar
-    urlpatterns = [
-        url(r'^__debug__/', include(debug_toolbar.urls)),
-    ] + urlpatterns

@@ -9,6 +9,8 @@ def hero_queries(request):
 
     queries = [
         'Superhero.objects.all()',
+        'Superhero.objects.get(name="Superman")',
+        'Superhero.objects.get(pk=1)',
         'Superhero.objects.filter(name="Superman")',
         'Superhero.objects.filter(name="Superman").first()',
         'Superhero.objects.filter(name="Spider-Man").first()',
@@ -43,5 +45,5 @@ def hero_queries(request):
         'page_title': 'Query Examples',
         'query_pairs': query_pairs,
     }
-    return render(request, 'hero_queries.html', context)
+    return render(request, 'superheroes/hero_queries.html', context)
 
