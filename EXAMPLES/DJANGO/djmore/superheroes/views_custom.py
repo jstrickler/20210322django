@@ -7,6 +7,5 @@ def hero_custom(request, hero_name):
     context = {
         'page_title': "Custom Function",
         'hero': hero,
-        'enemies': hero.get_brief_enemies
     }
     return render(request, 'hero_custom.html', context)

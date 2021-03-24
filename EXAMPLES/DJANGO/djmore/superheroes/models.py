@@ -5,6 +5,7 @@ logging.basicConfig(
     filename='superheroes.log',
     level=logging.INFO,
 )
+# .debug() logging.info('msg')  .warn()  .error() .critical()
 
 class SuperheroManager(models.Manager):
     def get_fliers(self):
@@ -37,13 +38,16 @@ class Superhero(models.Model):
     city = models.ForeignKey(City, on_delete=models.CASCADE)
     powers = models.ManyToManyField(Power)
     enemies = models.ManyToManyField(Enemy)
-    objects = SuperheroManager()
+    objects = SuperheroManager()  # replace default manager with custom
 
     def __str__(self):
         return self.name
 
-    class Meta():
-        ordering = ['secret_identity']
+    class Meta:
+        ordering = ['name', '-city']
+        # db_table = 'superhero'
+        # managed = False    don't migrate this model
+        # app_label = 'tables'
 
     def get_brief_enemies(self):
         enemies = [e.name.split()[-1] for e in self.enemies.all()]

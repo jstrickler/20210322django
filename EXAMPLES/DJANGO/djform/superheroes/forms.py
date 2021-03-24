@@ -9,15 +9,16 @@ class LittleIntegerField(forms.IntegerField):
     default_validators = [small_integer_only]
 
 
+
 class DemoForm(forms.Form):
     demo_boolean = forms.BooleanField()
     demo_char = forms.CharField(max_length=10, strip=True)
     demo_choice = forms.ChoiceField(choices=[(1, 'A'), (2, 'B'), (3, 'C')])
-    demo_date = forms.DateField(label="Date")
-    demo_email = forms.EmailField(label="Electronic mail address:")
+    demo_date = forms.DateField(label="Date", required=False)
+    demo_email = forms.EmailField(label="Electronic mail address:", help_text="Please enter an email address in name@host format")
     demo_float = forms.FloatField(help_text="Please enter a floating point number")
     demo_int1 = LittleIntegerField()
-    demo_int2 = LittleIntegerField()
+    demo_int2 = LittleIntegerField(required=False)
     demo_regex = forms.RegexField(regex=r'(?i)^a[a-z]{1,5}$')
     # submit = forms
 
@@ -28,13 +29,13 @@ class DemoForm(forms.Form):
         return  not bool
 
 
-COLORS = 'green red blue purple orange'.split()
-COLOR_CHOICES = [(c.title(), c) for c in COLORS]
 
 
 class HeroSearchForm(forms.Form):
+    COLORS = 'green red blue purple orange'.split()
+    COLOR_CHOICES = [(c, c.title()) for c in COLORS]
 
-    hero_name = forms.CharField(label='Hero', max_length=40)
+    hero_name = forms.CharField(label='Hero', widget=forms.TextInput(attrs={'id': "wombat", 'class': 'rutabaga'}))
 
     hero_color = forms.ChoiceField(
         label="Color",
@@ -43,11 +44,11 @@ class HeroSearchForm(forms.Form):
 
 
 class HeroAddForm(forms.ModelForm):
-    class Meta():
+    class Meta:
         model = Superhero
-        fields = ['name', 'real_name', 'city', 'secret_identity']
+        # fields = ['name', 'real_name', 'city', 'secret_identity']
         # or
-        # exclude = ['powers', 'enemies']
+        exclude = []
         labels = {
             'name': 'Hero Name',
             'real_name': 'Birth name',

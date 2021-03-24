@@ -12,5 +12,6 @@ urlpatterns = [
     path('demoform', views.demoform, name='demoform'),
     path('herosearch', views.herosearch, name='herosearch'),
     path('heroadd', views.heroadd, name='heroadd'),
+    path('success/<str:hero_name>', views.success, name='success'),
 ]
 

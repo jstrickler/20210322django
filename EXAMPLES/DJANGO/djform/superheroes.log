@@ -167,3 +167,46 @@ INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJ
 INFO:django.utils.autoreload:Watching for file changes with StatReloader
 INFO:root:Created superhero a
 INFO:root:Created superhero Hawkeye
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJANGO/djform/superheroes/forms.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJANGO/djform/superheroes/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJANGO/djform/superheroes/forms.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJANGO/djform/superheroes/forms.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Created superhero Hulk
+INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJANGO/djform/superheroes/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Created superhero Scarlet Witch
+INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJANGO/djform/superheroes/forms.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Created superhero Vision
+INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJANGO/djform/superheroes/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Created superhero John Lennon
+INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJANGO/djform/superheroes/forms.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJANGO/djform/superheroes/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Created superhero Doorman
+ERROR:django.request:Internal Server Error: /heroadd
+Traceback (most recent call last):
+  File "/home/jstrickler/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jstrickler/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/jstrickler/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view superheroes.views.heroadd didn't return an HttpResponse object. It returned None instead.
+INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJANGO/djform/superheroes/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Created superhero Doorman
+INFO:django.utils.autoreload:/home/jstrickler/Desktop/20210322django/EXAMPLES/DJANGO/djform/superheroes/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /succes
+INFO:root:Created superhero The Phantom

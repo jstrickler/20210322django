@@ -4,7 +4,7 @@
 
 <h1>Pick a hero:</h1>
 
-{% for hero in heroes %}d
+{% for hero in heroes %}
 <h3><a
   href="{% url 'superheroes:herodetails' hero.name %}">
     {{ hero.name }}

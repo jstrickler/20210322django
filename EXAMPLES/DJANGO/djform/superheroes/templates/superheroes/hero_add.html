@@ -6,7 +6,7 @@
 <form action="{% url 'superheroes:heroadd' %}" method="post">
     {% csrf_token %}
     {{ form | crispy }}
-    <input type="submit" value="Search"/>
+    <input type="submit" value="Add Superhero"/>
 
 </form>
 

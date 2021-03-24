@@ -2,9 +2,9 @@
 
 {% block content %}
 <h1>{{ page_title }}</h1>
-<form action="{% url 'superheroes:herosearch' %}" method="post">
+<form id="mainsearch" action="{% url 'superheroes:herosearch' %}" method="post">
     {% csrf_token %}
-    {{ form }}
+    {{ form.as_p }}
     <input type="submit" value="Search"/>
 
 </form>

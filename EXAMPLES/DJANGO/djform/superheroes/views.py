@@ -3,8 +3,9 @@
 
     These are forms illustrating how forms work in Django
 """
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import get_object_or_404, render, redirect
 from django.http import HttpResponse
+from django.urls import reverse  # get URL from view name
 from .forms import DemoForm, HeroSearchForm, HeroAddForm
 from .models import Superhero, City
 
@@ -34,6 +35,7 @@ def demoform(request):
         form = DemoForm(request.POST)
         if form.is_valid():
             # if data is valid, show results page
+            # email = form.cleaned_data.get('demo_email')
             context = {
                     'page_title': 'Form Fields Results',
                     'data': form.cleaned_data,
@@ -80,11 +82,13 @@ def herosearch(request):
         form = HeroSearchForm()
 
         context = {
-            'page_title': 'Form Example',
+            'page_title': 'Hero Search',
             'form': form,
         }
         return render(request, 'superheroes/hero_select.html', context)
 
+def success(request, hero_name):
+    return render(request, 'superheroes/success.html', context={'hero_name': hero_name})
 
 def heroadd(request):
     """
@@ -103,13 +107,15 @@ def heroadd(request):
             hero.real_name = form.cleaned_data.get('real_name')
             city_id = form.data.get('city')
             hero.city = City.objects.get(pk=city_id)
-            hero.save()
+            # get enemies and powers and add to enemies/powers DB if necessary
+            # add enemies and powers to hero
+            hero.save() # executes SQL code to add hero to DB
             context = {
                 'page_title': 'Hero Added',
                 'hero': hero,
                 'added': True,
             }
-            return render(request, 'superheroes/hero_details.html', context)
+            return redirect(reverse('superheroes:success', kwargs={'hero_name': hero.name}))
         else:
             return HttpResponse("Well that ended well")
 
