@@ -32,22 +32,24 @@ COLORS = 'green red blue purple orange'.split()
 COLOR_CHOICES = [(c.title(), c) for c in COLORS]
 
 
-class HeroForm(forms.Form):
+class HeroSearchForm(forms.Form):
 
     hero_name = forms.CharField(label='Hero', max_length=40)
+
     hero_color = forms.ChoiceField(
         label="Color",
         choices=COLOR_CHOICES,
     )
 
 
-class HeroModel(forms.ModelForm):
+class HeroAddForm(forms.ModelForm):
     class Meta():
         model = Superhero
         fields = ['name', 'real_name', 'city', 'secret_identity']
+        # or
+        # exclude = ['powers', 'enemies']
         labels = {
             'name': 'Hero Name',
-            'city': 'City where they hang out',
+            'real_name': 'Birth name',
         }
-
 

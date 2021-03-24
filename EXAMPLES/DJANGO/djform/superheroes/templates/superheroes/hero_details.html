@@ -1,6 +1,10 @@
-{% extends "superheroes_base.html" %}
+{% extends "superheroes/superheroes_base.html" %}
 
 {% block content %}
+
+{% if added %}
+<div>Hero {{ hero.name }} added!</div>
+{% endif %}
 
 <h1 style="color:{{ color }};">{{ hero.name }}</h1>
 <h2>Secret Identity: {{ hero.secret_identity }}</h2>

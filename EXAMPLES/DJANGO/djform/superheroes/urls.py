@@ -10,7 +10,7 @@ app_name = 'superheroes'
 urlpatterns = [
     path('', views.home, name='home'),
     path('demoform', views.demoform, name='demoform'),
-    path('heroform', views.heroform, name='heroform'),
-    path('heromodel', views.heromodel, name='heromodel'),
+    path('herosearch', views.herosearch, name='herosearch'),
+    path('heroadd', views.heroadd, name='heroadd'),
 ]
 
