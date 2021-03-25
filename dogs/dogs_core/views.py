@@ -4,6 +4,7 @@ from django.urls import reverse
 from .models import Dog, Breed
 from .forms import DogAddForm, OtherForm
 from django.db.models import Q
+import pdb
 
 # Create your views here.
 def home(request):
@@ -57,6 +58,7 @@ def other_form(request):
             if dog_sex:
                 query &= Q(dog_sex=dog_sex)
             results = Dog.objects.filter(query)
+
     else:  # empty form
         form = OtherForm()
         context = {
