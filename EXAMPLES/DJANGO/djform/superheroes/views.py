@@ -58,6 +58,7 @@ def demoform(request):
 
 def herosearch(request):
     """
+    View a form with a name search blank for heros, and a color choice for the hero's name
 
     :param request: HTTP request
     :return: HTTP Response
@@ -88,10 +89,18 @@ def herosearch(request):
         return render(request, 'superheroes/hero_select.html', context)
 
 def success(request, hero_name):
+    """
+    View for success database addition.
+
+    :param request:
+    :param hero_name: name of hero (str)
+    :return: HTTP response with success message
+    """
     return render(request, 'superheroes/success.html', context={'hero_name': hero_name})
 
 def heroadd(request):
     """
+    View to provide form for adding one hero to the database
 
     :param request: HTTP request
     :return: HTTP Response
