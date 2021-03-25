@@ -7,14 +7,14 @@ from .models import Superhero, City
 
 
 class HomeView(TemplateView):
-    template_name = 'home.html'
+    template_name = 'superheroes/home.html'
     data = {
         'message': 'Welcome to the superheroes app for class-based views',
     }
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context.update(data)
+        context.update(self.data)
         return context
 
 class HeroListViewMinimal(ListView):
@@ -48,4 +48,4 @@ class HeroUpdateView(UpdateView):
     success_url = reverse_lazy('superheroes:success')
 
 class SuccessView(TemplateView):
-    template_name = 'success.html'
+    template_name = 'superheroes/success.html'

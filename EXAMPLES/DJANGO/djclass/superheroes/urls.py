@@ -12,7 +12,7 @@ urlpatterns = [
     # welcome page, no class-based views
     path(
         '',
-        views.HomeView.as_view,
+        views.HomeView.as_view(),
         name = 'home'
     ),
 
@@ -36,11 +36,7 @@ urlpatterns = [
     ),
 
     #
-    path(
-        'genericcontext',
-        views.GenericContext.as_view(),
-        name="genericcontext",
-    ),
+
     path(
         'genericlist',
         views.HeroListView.as_view(),

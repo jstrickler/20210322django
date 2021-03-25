@@ -45,7 +45,7 @@ class HeroSearchForm(forms.Form):
 
 class HeroAddForm(forms.ModelForm):
     class Meta:
-        model = Superhero
+        mode, l = Superhero
         # fields = ['name', 'real_name', 'city', 'secret_identity']
         # or
         exclude = []
