@@ -1,0 +1,19 @@
+{% extends "dogs_core/dogs_core_base.html" %}
+
+{% block content %}
+
+<h1>Pick a dog:</h1>
+<h2>(minimal class-based list view)</h2>
+
+{% for dog in object_list %}
+<h3><a
+  href="{% url 'dogs_core:dog_detail' dog.id %}">
+    {{ dog.name }}
+</a>
+    {{ dog.breed }}
+</h3>
+{% endfor %}
+
+{% endblock %}
+
+

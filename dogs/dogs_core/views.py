@@ -1,5 +1,6 @@
 from django.http import HttpResponse # only used in class (see comment below)
 from django.shortcuts import render, get_object_or_404, redirect
+from django.views.generic import ListView, DetailView, CreateView, UpdateView
 from django.urls import reverse
 from .models import Dog, Breed
 from .forms import DogAddForm, OtherForm
@@ -75,3 +76,25 @@ def other_form(request):
 # def home(request):
 #     context = { 'message': "Welcome to dogs_core" }
 #     return render(request, 'dogs_core/home.html', context)
+class DogListView(ListView):
+    model = Dog   # template will be dog_list.html by default
+    # template_name = "dogs_core/whatever.html"
+
+class DogListByNameView(ListView):
+    model = Dog   # template will be dog_list.html by default
+    template_name = "dogs_core/dog_list_by_name.html"
+
+class DogDetailView(DetailView):
+    model = Dog  # template will be dog_detail.html
+
+class DogDetailByNameView(DetailView):
+    model = Dog  # template will be dog_detail.html
+
+    def get_object(self, queryset=None):
+        return Dog.objects.get(name=self.kwargs.get("name"))
+
+class BreedListView(ListView):
+    model = Breed
+
+class BreedDetailView(DetailView):
+    model = Breed

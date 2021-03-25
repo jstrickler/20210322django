@@ -19,6 +19,8 @@ class Dog(models.Model):
     ]
     sex = models.CharField(max_length=1, choices=SEX_CHOICES)
     is_neutered = models.BooleanField(default=False)
+    is_biter = models.BooleanField(default=False)
+    favorite_toy = models.CharField(max_length=32, null=True)
 
     def __str__(self):
         return '{} ({})'.format(self.name, self.breed)

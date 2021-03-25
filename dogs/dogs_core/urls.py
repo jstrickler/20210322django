@@ -15,5 +15,9 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('details/<int:pkid>', views.dog_details, name='dog_details'),
     path('dogadd', views.dog_add, name='dog_add'),
-    path('other', views.other_form, name='other')
+    path('other', views.other_form, name='other'),
+    path('dog_list', views.DogListView.as_view(), name="dog_list"),
+    path('dog_list_by_name', views.DogListByNameView.as_view(), name="dog_list_by_name"),
+    path('dog_detail/<int:pk>', views.DogDetailView.as_view(), name="dog_detail"),
+    path('dog_detail_by_name/<str:name>', views.DogDetailByNameView.as_view(), name="dog_detail_by_name"),
 ]

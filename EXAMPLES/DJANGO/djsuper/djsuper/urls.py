@@ -25,9 +25,4 @@ urlpatterns = [
     path('', include('superheroes.urls')),
 ]
 
-# include Django Debug toolbar if DEBUG is set
-if settings.DEBUG:
-    import debug_toolbar
-    urlpatterns = [
-        path('__debug__/', include(debug_toolbar.urls)),
-    ] + urlpatterns
+v

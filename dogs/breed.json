@@ -1,0 +1,1 @@
+[{"model": "dogs_core.breed", "pk": 1, "fields": {"name": "ENGLISH SHEPHERD"}}, {"model": "dogs_core.breed", "pk": 2, "fields": {"name": "MUTT"}}, {"model": "dogs_core.breed", "pk": 3, "fields": {"name": "GERMAN SHEPHERD"}}, {"model": "dogs_core.breed", "pk": 4, "fields": {"name": "SIBERIAN HUSKY"}}]

@@ -5,8 +5,20 @@ from django.urls import reverse_lazy
 from django.shortcuts import render
 from .models import Superhero, City
 
+class WombatView(TemplateView):
+    template_name = "superheroes/wombat.html"
 
-class HomeView(TemplateView):
+class SharedDataTemplateView(TemplateView):
+    data = {
+        'color': 'green',
+    }
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context.update(self.data)  # add self.data dict to existing dict in template
+        return context
+
+class HomeView(SharedDataTemplateView):
     template_name = 'superheroes/home.html'
     data = {
         'message': 'Welcome to the superheroes app for class-based views',
@@ -14,7 +26,7 @@ class HomeView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context.update(self.data)
+        context.update(self.data)  # add self.data dict to existing dict in template
         return context
 
 class HeroListViewMinimal(ListView):

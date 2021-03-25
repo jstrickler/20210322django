@@ -3,13 +3,14 @@ URL Configuration for superheroes
 """
 from django.conf.urls import url
 from django.urls import path
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView  # BAD PRACTICE
 from . import views
 
 app_name = 'superheroes'
 
 urlpatterns = [
     # welcome page, no class-based views
+    path('wombat', views.WombatView.as_view(), name="wombat"),
     path(
         '',
         views.HomeView.as_view(),
@@ -19,7 +20,7 @@ urlpatterns = [
     # NO view -- don't do this:
     path(
         'noview',
-        TemplateView.as_view(template_name='noview.html'),
+        TemplateView.as_view(template_name='superheroes/noview.html'),
         name="noview",
     ),
 
@@ -52,6 +53,7 @@ urlpatterns = [
         views.HeroCreateView.as_view(),
         name="herocreate",
     ),
+    path('citycreate', views.CityCreateView.as_view(), name='citycreate'),
     path(
         'heroupdate/<int:pk>',
         views.HeroUpdateView.as_view(),
