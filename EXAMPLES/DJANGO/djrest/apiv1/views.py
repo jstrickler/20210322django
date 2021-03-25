@@ -3,7 +3,6 @@ from rest_framework.response import Response
 from rest_framework.parsers import JSONParser
 from rest_framework.generics import ListAPIView, RetrieveAPIView, get_object_or_404
 
-
 from superheroes.models import Superhero, Enemy, Power, City
 
 from .serializers import (

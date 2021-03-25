@@ -48,7 +48,7 @@ urlpatterns = [
     #
     # from app.views import myview
     # path('viewpath', myview, name="myview")
-
+    path('', include('dogs_core.urls', namespace='dogs_core')),
 ]
 
 # include Django Debug toolbar if DEBUG is set
