@@ -32,7 +32,11 @@
       {% block content %}
         <p>Default content for dogs_core</p>
       {% endblock content %}
-      {% block footer %}{% endblock footer %}
+      {% block footer %}
+      {% if not home %}
+      <h3><a href="{% url 'dogs_core:home' %}">Return to home page</a></h3>
+      {% endif %}
+      {% endblock footer %}
 
     </div> <!-- /container -->
 

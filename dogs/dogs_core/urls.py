@@ -12,4 +12,8 @@ urlpatterns = [
     # Examples:
     # path('', views.home, name='home'),
     # path('thing', views.thing, name='thing'),
+    path('', views.home, name='home'),
+    path('details/<int:pkid>', views.dog_details, name='dog_details'),
+    path('dogadd', views.dog_add, name='dog_add'),
+    path('other', views.other_form, name='other')
 ]

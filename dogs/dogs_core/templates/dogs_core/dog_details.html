@@ -1,0 +1,15 @@
+{% extends "dogs_core/dogs_core_base.html" %}
+{% block content %}
+<div class="container">
+<h1>{{ dog.name }}
+{% if added %}
+    <span class="note">ADDED</span>
+{% endif %}
+
+</h1>
+    <h2>{{ dog.breed }}</h2>
+    <h2>{{ dog.sex }}</h2>
+    <h2>{{ dog.is_neutered }}</h2>
+</div>
+{% endblock content %}
+

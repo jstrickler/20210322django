@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
     'dogs_core.apps.DogsCoreConfig',  # import dogs_core.apps.DogsCoreConfig
     # add your apps here:
     # 'myapp.apps.MyappConfig',
