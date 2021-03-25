@@ -67,6 +67,11 @@ class Superhero(models.Model):
         ordering = ['secret_identity']
 
     def get_brief_enemies(self):
+        """
+        Return single string with all enemies separated by '/'
+
+        :return:
+        """
         enemies = [e.name.split()[-1] for e in self.enemies.all()]
         return '/'.join(enemies)
 

@@ -5,6 +5,12 @@ import requests
 
 
 def print_if_ok(response, message):
+    """
+
+    :param response:
+    :param message:
+    :return:
+    """
     print("** {} **".format(message))
     print(response.status_code)
     if response.status_code == requests.codes.OK:
