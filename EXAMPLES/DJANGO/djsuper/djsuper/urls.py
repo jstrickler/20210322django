@@ -25,4 +25,3 @@ urlpatterns = [
     path('', include('superheroes.urls')),
 ]
 
-v
