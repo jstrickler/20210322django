@@ -104,23 +104,19 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'presidents.db'),
     },
-    # 'potus': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': '/put/path/to/DATA/presidents.db',
-    # },
-    'potus': {  # instructor only
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'scripts',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
+    # 'potus': {  # instructor only
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'postgres',
+    #     'USER': 'postgres',
+    #     'PASSWORD': 'scripts',
+    #     'HOST': 'localhost',
+    #     'PORT': '5432',
+    # }
 }
 
-DATABASE_ROUTERS = [
-    'presidents.dbrouters.PresidentRouter',
-]
+# DATABASE_ROUTERS = [
+#     'presidents.dbrouters.PresidentRouter',
+# ]
 
 REST_FRAMEWORK = {
     # 'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],

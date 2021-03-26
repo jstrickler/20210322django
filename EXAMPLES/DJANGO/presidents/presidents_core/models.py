@@ -21,7 +21,6 @@ class Presidents(models.Model):
     party = models.CharField(max_length=32, blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'presidents'
 
     def __str__(self):
