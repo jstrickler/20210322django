@@ -7,7 +7,7 @@ from django.contrib import admin
 
 # site-wide route mapping
 urlpatterns = [
-    path('admin', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('', include('superheroes.urls', namespace="superheroes")),  # delegate to app's URL config
 ]
 
