@@ -1,11 +1,20 @@
 #!/usr/bin/env python
 # (c) 2016 John Strickler
 #
+from django.views.generic import ListView
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import get_object_or_404, render
 from django.contrib.auth.decorators import login_required
 from .models import Superhero
 from django.http import HttpResponse
 from django.template.loader import get_template
+from django.shortcuts import redirect
+
+class MyCustomView(LoginRequiredMixin, ListView):
+    pass
+
+
+
 
 @login_required
 def hero_hard_way(request, hero_name):
@@ -78,3 +87,4 @@ def hero_static(request, hero_name):
         'image_name': hero.name.lower().replace(' ', '_')
     }
     return render(request, 'hero_static.html', data)
+

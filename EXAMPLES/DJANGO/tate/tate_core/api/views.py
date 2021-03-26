@@ -21,7 +21,7 @@ def hello_world(request):
     return Response({"message": "Hello, world!"})
 
 @api_view(['GET'])
-def artists(request, guid):
+def artists_list(request, guid):
     """
     Function-based view to retrieve one artist.
 
@@ -33,6 +33,11 @@ def artists(request, guid):
         artist = get_object_or_404(Artist, id=guid)
         serializer = ArtistSerializer(artist, context={'request': request})
         return Response(serializer.data)
+
+@api_view(['POST'])
+def artists_add(request, guid):
+    pass
+
 
 # class-based views (aka CBVs)
 class ArtistsList(generics.ListCreateAPIView):
@@ -56,7 +61,7 @@ class ArtworksList(generics.ListCreateAPIView):
     filterset_class = ArtworkFilter
 
 
-class ArtistsDetail(generics.RetrieveUpdateDestroyAPIView):
+class ArtworksDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Artwork.objects.all()
     serializer_class = ArtworkSerializer
     filter_backends = [DjangoFilterBackend]

@@ -15,8 +15,10 @@ urlpatterns = [
     path('', include(router.urls)),
     path('artists-cbv', views.ArtistsList.as_view(), name='artists-cbv'),
     path('artists-cbv/<str:pk>', views.ArtistsDetail.as_view(), name='artists-detail-cbv'),
+    path('artworks-cbv', views.ArtworksList.as_view(), name='artists-cbv'),
+    path('artworks-cbv/<str:pk>', views.ArtworksDetail.as_view(), name='artists-detail-cbv'),
     path('hello', views.hello_world, name='hello'),
-    path('artists-fbv/<str:guid>', views.artists, name='artists-fbv'),
+    path('artists-fbv/<str:guid>', views.artists_list, name='artists-fbv'),
     #    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 
 ]
