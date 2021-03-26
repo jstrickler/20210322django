@@ -1,0 +1,1396 @@
+- fields:
+    birth_year: 1775
+    death_year: 1830
+    name: Atkinson, John Augustus
+    place_of_birth: London, United Kingdom
+    tate_id: 2412
+    tate_url: http://www.tate.org.uk/art/artists/john-augustus-atkinson-2412
+  model: tate_core.artist
+  pk: 001e1b75-03a2-4ce6-bdf8-520c3f2af721
+- fields:
+    artist: 001e1b75-03a2-4ce6-bdf8-520c3f2af721
+    date_text: date not known
+    tate_url: http://www.tate.org.uk/art/artworks/atkinson-a-belgian-waggon-with-four-horses-t10244
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T10/T10244_8.jpg
+    title: A Belgian Waggon with Four Horses
+  model: tate_core.artwork
+  pk: 5a24a85c-3a27-4047-b9af-68966acd7da0
+- fields:
+    birth_year: 1850
+    death_year: 1905
+    name: Rivers, Leopold
+    place_of_birth: London, United Kingdom
+    tate_id: 452
+    tate_url: http://www.tate.org.uk/art/artists/leopold-rivers-452
+  model: tate_core.artist
+  pk: 00459ad5-dd68-4cfe-a849-4f598996a04f
+- fields:
+    artist: 00459ad5-dd68-4cfe-a849-4f598996a04f
+    date_text: exhibited 1892
+    tate_url: http://www.tate.org.uk/art/artworks/rivers-stormy-weather-n01710
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N01/N01710_8.jpg
+    title: Stormy Weather
+  model: tate_core.artwork
+  pk: 6e97a169-91a4-4fa6-ba3d-48f6c28b9a61
+- fields:
+    birth_year: 1869
+    death_year: 1957
+    name: Hall, Oliver
+    place_of_birth: London, United Kingdom
+    tate_id: 1241
+    tate_url: http://www.tate.org.uk/art/artists/oliver-hall-1241
+  model: tate_core.artist
+  pk: 0056a9e9-a114-467e-bcf7-045c99e79927
+- fields:
+    artist: 0056a9e9-a114-467e-bcf7-045c99e79927
+    date_text: '1919'
+    tate_url: http://www.tate.org.uk/art/artworks/hall-shap-moors-n03555
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N03/N03555_8.jpg
+    title: Shap Moors
+  model: tate_core.artwork
+  pk: 22639978-4e64-4f04-ac93-41e7b481f12c
+- fields:
+    artist: 0056a9e9-a114-467e-bcf7-045c99e79927
+    date_text: c.1936
+    tate_url: http://www.tate.org.uk/art/artworks/hall-vale-of-festiniog-n04835
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N04/N04835_8.jpg
+    title: Vale of Festiniog
+  model: tate_core.artwork
+  pk: b0362aab-a6fa-4f03-9e88-77bfb6bf034d
+- fields:
+    artist: 0056a9e9-a114-467e-bcf7-045c99e79927
+    date_text: '1911'
+    tate_url: http://www.tate.org.uk/art/artworks/hall-avignon-n03003
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N03/N03003_8.jpg
+    title: Avignon
+  model: tate_core.artwork
+  pk: cf6a666f-2707-4b40-b3c2-70867bf4aca2
+- fields:
+    birth_year: 1962
+    death_year: null
+    name: Currin, John
+    place_of_birth: Boulder, United States
+    tate_id: 2694
+    tate_url: http://www.tate.org.uk/art/artists/john-currin-2694
+  model: tate_core.artist
+  pk: 007c5207-fa41-4cf4-8fda-9f89b5a9fb07
+- fields:
+    artist: 007c5207-fa41-4cf4-8fda-9f89b5a9fb07
+    date_text: '2006'
+    tate_url: http://www.tate.org.uk/art/artworks/currin-the-dream-of-the-doctor-p13015
+    thumbnail_url: ''
+    title: The Dream of the Doctor
+  model: tate_core.artwork
+  pk: 0cfc5323-302a-43cb-a630-865acc298f2f
+- fields:
+    artist: 007c5207-fa41-4cf4-8fda-9f89b5a9fb07
+    date_text: c.1994
+    tate_url: http://www.tate.org.uk/art/artworks/currin-the-wizard-t13718
+    thumbnail_url: ''
+    title: The Wizard
+  model: tate_core.artwork
+  pk: 1954a38d-87d2-4282-bced-6d54dbec59ea
+- fields:
+    artist: 007c5207-fa41-4cf4-8fda-9f89b5a9fb07
+    date_text: '2006'
+    tate_url: http://www.tate.org.uk/art/artworks/currin-sho-bo-p13019
+    thumbnail_url: ''
+    title: Sho-bo
+  model: tate_core.artwork
+  pk: 1dde9db8-e8f5-423c-989e-4fcf29c148c9
+- fields:
+    artist: 007c5207-fa41-4cf4-8fda-9f89b5a9fb07
+    date_text: '2006'
+    tate_url: http://www.tate.org.uk/art/artworks/currin-milestones-p13014
+    thumbnail_url: ''
+    title: Milestones
+  model: tate_core.artwork
+  pk: 3c73088f-92d6-42cc-90f8-d7e93ab0a207
+- fields:
+    artist: 007c5207-fa41-4cf4-8fda-9f89b5a9fb07
+    date_text: '2006'
+    tate_url: http://www.tate.org.uk/art/artworks/currin-girl-in-bed-p13013
+    thumbnail_url: ''
+    title: Girl in Bed
+  model: tate_core.artwork
+  pk: 3e8a9e19-ac17-4bf6-bb5f-6c858e3f4d77
+- fields:
+    artist: 007c5207-fa41-4cf4-8fda-9f89b5a9fb07
+    date_text: '2006'
+    tate_url: http://www.tate.org.uk/art/artworks/currin-the-pink-tree-p13016
+    thumbnail_url: ''
+    title: The Pink Tree
+  model: tate_core.artwork
+  pk: 598224a6-9e54-457d-9ba5-364bd39f042a
+- fields:
+    artist: 007c5207-fa41-4cf4-8fda-9f89b5a9fb07
+    date_text: '2006'
+    tate_url: http://www.tate.org.uk/art/artworks/currin-dogwood-p13018
+    thumbnail_url: ''
+    title: Dogwood
+  model: tate_core.artwork
+  pk: 6cfebc3e-9647-43ed-9053-f11531ceee1f
+- fields:
+    artist: 007c5207-fa41-4cf4-8fda-9f89b5a9fb07
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/currin-honeymoon-nude-t07519
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T07/T07519_8.jpg
+    title: Honeymoon Nude
+  model: tate_core.artwork
+  pk: 833c6e70-0bdd-4a82-acfe-72c7a4b39519
+- fields:
+    artist: 007c5207-fa41-4cf4-8fda-9f89b5a9fb07
+    date_text: '2006'
+    tate_url: http://www.tate.org.uk/art/artworks/currin-anna-p13017
+    thumbnail_url: ''
+    title: Anna
+  model: tate_core.artwork
+  pk: d5f39a4e-6d0a-469c-a229-d771dfa59f13
+- fields:
+    birth_year: 1911
+    death_year: 2004
+    name: Minami, Keiko
+    place_of_birth: Nihon
+    tate_id: 1640
+    tate_url: http://www.tate.org.uk/art/artists/keiko-minami-1640
+  model: tate_core.artist
+  pk: 007cddec-177b-4e70-bdfb-41a48b512e9e
+- fields:
+    artist: 007cddec-177b-4e70-bdfb-41a48b512e9e
+    date_text: '1973'
+    tate_url: http://www.tate.org.uk/art/artworks/minami-girl-with-green-birds-p01451
+    thumbnail_url: ''
+    title: Girl with Green Birds
+  model: tate_core.artwork
+  pk: 66a10e45-ea8b-4266-8ac8-1690bddf9201
+- fields:
+    birth_year: 1778
+    death_year: 1778
+    name: Sanders, Ann
+    place_of_birth: ''
+    tate_id: 2539
+    tate_url: http://www.tate.org.uk/art/artists/ann-sanders-2539
+  model: tate_core.artist
+  pk: 008a60f1-fe2c-423d-8a8f-6a6825a6824a
+- fields:
+    artist: 008a60f1-fe2c-423d-8a8f-6a6825a6824a
+    date_text: '1778'
+    tate_url: http://www.tate.org.uk/art/artworks/sanders-wooded-landscape-with-traveller-and-packhorse-after-f-towne-t08575
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T08/T08575_8.jpg
+    title: Wooded Landscape with Traveller and Packhorse, after F. Towne
+  model: tate_core.artwork
+  pk: 0caec750-fe61-4c28-af7e-4824afe5c6cb
+- fields:
+    birth_year: 1933
+    death_year: null
+    name: Lin, Richard
+    place_of_birth: Chung-hua Min-kuo
+    tate_id: 1513
+    tate_url: http://www.tate.org.uk/art/artists/richard-lin-1513
+  model: tate_core.artist
+  pk: 00dd52b2-033c-4320-9de8-96346bc3116f
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1971'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-may-4-p04582
+    thumbnail_url: ''
+    title: May 4
+  model: tate_core.artwork
+  pk: 13b0fefe-96a3-4367-b31d-61874362ace2
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1965'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-relationships-ii-p04574
+    thumbnail_url: ''
+    title: Relationships II
+  model: tate_core.artwork
+  pk: 20f16b4c-da72-4a31-b07e-1e33f4b15081
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1971'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-may-3-p04581
+    thumbnail_url: ''
+    title: May 3
+  model: tate_core.artwork
+  pk: 268aa728-b91c-4c3d-8e43-397a949b33fa
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1971'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-may-2-p04580
+    thumbnail_url: ''
+    title: May 2
+  model: tate_core.artwork
+  pk: 4460b63b-e66e-4c4f-bc97-ae06c9c49ca7
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1966'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-summer-p04576
+    thumbnail_url: ''
+    title: Summer
+  model: tate_core.artwork
+  pk: 4d973714-fd87-4eb8-aca6-31ba25c6d9b0
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1966'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-winter-p04578
+    thumbnail_url: ''
+    title: Winter
+  model: tate_core.artwork
+  pk: 6e4284e6-4dd4-4ff2-a90c-8ee6ca5ced17
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1965'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-relationships-i-p04573
+    thumbnail_url: ''
+    title: Relationships I
+  model: tate_core.artwork
+  pk: 71b7aa5c-8f67-4082-b10f-123194665ac7
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1966'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-autumn-p04577
+    thumbnail_url: ''
+    title: Autumn
+  model: tate_core.artwork
+  pk: a3dc01d9-919e-49ce-83db-a607ae8af217
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1971'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-may-1-p04579
+    thumbnail_url: ''
+    title: May 1
+  model: tate_core.artwork
+  pk: a5c2838a-0035-4338-bf09-a7bdd2cd1e8d
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1966'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-spring-p04575
+    thumbnail_url: ''
+    title: Spring
+  model: tate_core.artwork
+  pk: b86856b0-531e-4a96-ab22-05a6ef1d0dad
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1973'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-painting-relief-13-sept-1963-t00636
+    thumbnail_url: ''
+    title: Painting Relief 13 Sept 1963
+  model: tate_core.artwork
+  pk: ce123acf-def3-43cc-88df-8268712921b3
+- fields:
+    artist: 00dd52b2-033c-4320-9de8-96346bc3116f
+    date_text: '1965'
+    tate_url: http://www.tate.org.uk/art/artworks/lin-flirtation-p04572
+    thumbnail_url: ''
+    title: Flirtation
+  model: tate_core.artwork
+  pk: d406f304-6338-418a-8c74-02f4aaf8a1f0
+- fields:
+    birth_year: null
+    death_year: null
+    name: V.Ch.K.
+    place_of_birth: ''
+    tate_id: 17134
+    tate_url: http://www.tate.org.uk/art/artists/vchk-17134
+  model: tate_core.artist
+  pk: 00e48e5c-163b-4448-aca3-310a33b220f5
+- fields:
+    birth_year: 1926
+    death_year: null
+    name: Kossoff, Leon
+    place_of_birth: London, United Kingdom
+    tate_id: 1436
+    tate_url: http://www.tate.org.uk/art/artists/leon-kossoff-1436
+  model: tate_core.artist
+  pk: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-salisbury-cathedral-from-the-meadows-2-p11707
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11707_8.jpg
+    title: Salisbury Cathedral from the Meadows (2)
+  model: tate_core.artwork
+  pk: 019f6af9-d8b8-47bc-ba34-7dc332c9109f
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-family-of-darius-before-alexander-2-p11716
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11716_8.jpg
+    title: The Family of Darius before Alexander (2)
+  model: tate_core.artwork
+  pk: 0311e3d0-bfb5-4c26-81ea-f2457fe48e00
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1996\u20137"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-constable-salisbury-cathedral-from-the-meadows-plate-3-p20310
+    thumbnail_url: ''
+    title: 'From Constable: Salisbury Cathedral from the Meadows (plate 3)'
+  model: tate_core.artwork
+  pk: 040d7efe-d1a3-40ad-837d-9ca5986f16d2
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-rape-of-the-sabines-1-p11725
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11725_8.jpg
+    title: The Rape of the Sabines (1)
+  model: tate_core.artwork
+  pk: 04fad07f-b9b7-442a-8446-866091e8c4a4
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-christ-brought-before-the-people-p11693
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11693_8.jpg
+    title: Christ Brought before the People
+  model: tate_core.artwork
+  pk: 05d950d2-dd02-4908-b988-af37c98deff1
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1979\u201384"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-going-home-stage-proof-p02941
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P02/P02941_8.jpg
+    title: Going Home [stage proof]
+  model: tate_core.artwork
+  pk: 05f98ff3-b7f6-4d84-ace3-994553f5bb43
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rubens-the-judgement-of-paris-plate-3-p20323
+    thumbnail_url: ''
+    title: 'From Rubens: The Judgement of Paris (plate 3)'
+  model: tate_core.artwork
+  pk: 0672e6be-addf-42dd-9989-5cf0b799bf57
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1959\u201362"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-man-in-a-wheelchair-t00564
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T00/T00564_8.jpg
+    title: Man in a Wheelchair
+  model: tate_core.artwork
+  pk: 0cee30ad-7886-40d2-a3ad-b4c37caea15a
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-testament-of-eudamidas-2-p11729
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11729_8.jpg
+    title: The Testament of Eudamidas (2)
+  model: tate_core.artwork
+  pk: 168df867-7564-495b-9b95-6ceeb5ef1e8a
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-poussin-cephalus-and-aurora-p20322
+    thumbnail_url: ''
+    title: 'From Poussin: Cephalus and Aurora'
+  model: tate_core.artwork
+  pk: 1b05bfa1-246e-4d1b-89fa-c4396d11d386
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1965'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-woman-ill-in-bed-surrounded-by-family-t03245
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T03/T03245_8.jpg
+    title: Woman Ill in Bed, Surrounded by Family
+  model: tate_core.artwork
+  pk: 1b87569a-1b26-4cce-8d92-d81a8c1f7ea6
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1999'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rembrandt-ecce-homo-p20315
+    thumbnail_url: ''
+    title: 'From Rembrandt: Ecce Homo'
+  model: tate_core.artwork
+  pk: 1cf676d6-1e94-439e-9785-3710fc5c8bb5
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-brazen-serpent-3-p11712
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11712_8.jpg
+    title: The Brazen Serpent (3)
+  model: tate_core.artwork
+  pk: 2053c7e6-4760-4484-9685-e2d5a064efef
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1965'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-drawing-for-woman-ill-in-bed-surrounded-by-family-durer-t03278
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T03/T03278_8.jpg
+    title: "Drawing for \u2018Woman Ill in Bed Surrounded by Family (D\xFCrer)\u2019"
+  model: tate_core.artwork
+  pk: 205d55ad-f1c6-42b0-8b5a-6e20c484fcc5
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-lamentation-over-the-dead-christ-2-p11722
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11722_8.jpg
+    title: The Lamentation over the Dead Christ (2)
+  model: tate_core.artwork
+  pk: 233f3f71-7592-4eff-bfad-da14e12ac2dc
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-judgement-of-solomon-1-p11698
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11698_8.jpg
+    title: Judgement of Solomon (1)
+  model: tate_core.artwork
+  pk: 23ac4f68-5bb2-4acb-baeb-10ec7f78fd60
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '2000'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-poussin-the-judgement-of-solomon-p20301
+    thumbnail_url: ''
+    title: 'From Poussin: The Judgement of Solomon'
+  model: tate_core.artwork
+  pk: 255749d2-4fa3-450e-aa3f-66ada7fc24d7
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-lamentation-over-the-dead-christ-3-p11723
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11723_8.jpg
+    title: The Lamentation over the Dead Christ (3)
+  model: tate_core.artwork
+  pk: 28e93f78-7908-4c81-bf4f-bb8c93981f60
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-triumph-of-pan-4-p11733
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11733_8.jpg
+    title: The Triumph of Pan (4)
+  model: tate_core.artwork
+  pk: 2cb26dcd-86f3-46ce-8f96-ac798de1204c
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1979'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-outside-kilburn-underground-stage-proof-p02933
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P02/P02933_8.jpg
+    title: Outside Kilburn Underground [stage proof]
+  model: tate_core.artwork
+  pk: 2e6d42c5-e2ca-4db8-bad8-0248e5b085d4
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1979\u201384"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-going-home-stage-proof-p02940
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P02/P02940_8.jpg
+    title: Going Home [stage proof]
+  model: tate_core.artwork
+  pk: 34765e66-d110-4f1e-bc25-68f99692cc90
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-judgement-of-paris-1-p11719
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11719_8.jpg
+    title: The Judgement of Paris (1)
+  model: tate_core.artwork
+  pk: 35087f89-9440-4aaf-8554-530c9d4dd27a
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1983'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-outside-kilburn-underground-stage-proof-p02936
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P02/P02936_8.jpg
+    title: Outside Kilburn Underground [stage proof]
+  model: tate_core.artwork
+  pk: 36044714-7f58-407a-bcfe-2163527e738f
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: c.1952
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-self-portrait-t07198
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T07/T07198_8.jpg
+    title: Self-Portrait
+  model: tate_core.artwork
+  pk: 363493d9-7e1c-40cf-b89e-ae815751ca8c
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-bathsheba-reading-davids-letter-p11689
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11689_8.jpg
+    title: "Bathsheba Reading David\u2019s Letter"
+  model: tate_core.artwork
+  pk: 38a4b3da-6d01-4377-afa3-55334ee44211
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1990\u20139"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rembrandt-a-woman-bathing-in-a-stream-p20303
+    thumbnail_url: ''
+    title: 'From Rembrandt: A Woman Bathing in a Stream'
+  model: tate_core.artwork
+  pk: 3a4144cc-d2e7-443c-94d5-e80baca6aa9e
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1991'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-constable-stoke-by-nayland-p20308
+    thumbnail_url: ''
+    title: 'From Constable: Stoke-by-Nayland'
+  model: tate_core.artwork
+  pk: 3c2b7e75-ed68-4d0b-9b02-0c7f59dc94ec
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1990\u20139"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rembrandt-the-lamentation-over-the-dead-christ-p20329
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P20/P20329_8.jpg
+    title: 'From Rembrandt: The Lamentation over the Dead Christ'
+  model: tate_core.artwork
+  pk: 3ebb2271-b3a0-4946-9ac5-a87b56e5e7ae
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1979\u201384"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-going-home-stage-proof-p02939
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P02/P02939_8.jpg
+    title: Going Home [stage proof]
+  model: tate_core.artwork
+  pk: 4088c8b2-bba0-4ee9-b3eb-94a224ce5703
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1971'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-drawing-for-childrens-swimming-pool-t03280
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T03/T03280_8.jpg
+    title: "Drawing for \u2018Children\u2019s Swimming Pool\u2019"
+  model: tate_core.artwork
+  pk: 44dd72d3-ad16-473d-85b1-e51c6568bdfe
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-consecration-of-saint-nicholas-2-p11714
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11714_8.jpg
+    title: The Consecration of Saint Nicholas (2)
+  model: tate_core.artwork
+  pk: 45672400-371a-4db9-b606-800144eaf737
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1986'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-veronese-the-consecration-of-st-nicholas-p20321
+    thumbnail_url: ''
+    title: 'From Veronese: The Consecration of St Nicholas'
+  model: tate_core.artwork
+  pk: 46b6c62e-d080-4ff1-88de-ed9a8e110ec5
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1990\u20139"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rembrandt-ecce-homo-p20327
+    thumbnail_url: ''
+    title: 'From Rembrandt: Ecce Homo'
+  model: tate_core.artwork
+  pk: 48388af2-f83a-4e06-a2b9-a349fd46f7ea
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1971'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-drawing-for-childrens-swimming-pool-t03281
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T03/T03281_8.jpg
+    title: "Drawing for \u2018Children\u2019s Swimming Pool\u2019"
+  model: tate_core.artwork
+  pk: 4a544c33-ec3e-4e03-95e1-eaaef3edb848
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1984'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-outside-kilburn-underground-p77103
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P77/P77103_8.jpg
+    title: Outside Kilburn Underground
+  model: tate_core.artwork
+  pk: 4b9c9788-bcc5-4e75-b663-f11241411e3c
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1990\u20139"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-veronese-the-adoration-of-the-kings-p20325
+    thumbnail_url: ''
+    title: 'From Veronese: The Adoration of the Kings'
+  model: tate_core.artwork
+  pk: 4bfa853b-2d1e-4632-8013-798712c06249
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1967'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-self-portrait-verso-untitled-two-figures-t04855
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T04/T04855_8.jpg
+    title: 'Self-Portrait. Verso: Untitled (Two Figures)'
+  model: tate_core.artwork
+  pk: 528ec52e-d0f2-457d-8814-8707d399a9de
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-christ-after-the-flagellation-contemplated-by-the-christian-soul-3-p11696
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11696_8.jpg
+    title: Christ after the Flagellation Contemplated by the Christian Soul (3)
+  model: tate_core.artwork
+  pk: 556d486d-f815-4309-b0d6-9afe8901c904
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1996\u20137"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-constable-salisbury-cathedral-from-the-meadows-plate-3-p20320
+    thumbnail_url: ''
+    title: 'From Constable: Salisbury Cathedral from the Meadows (plate 3)'
+  model: tate_core.artwork
+  pk: 56e3c765-c466-4a01-a9e6-081e6844030e
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-judgement-of-paris-2-p11720
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11720_8.jpg
+    title: The Judgement of Paris (2)
+  model: tate_core.artwork
+  pk: 57bb1c87-d736-4953-81e0-167e6c7be3d5
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-triumph-of-pan-1-p11730
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11730_8.jpg
+    title: The Triumph of Pan (1)
+  model: tate_core.artwork
+  pk: 5815f5bd-5972-479c-ae0a-76af18ba0a59
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1990\u20139"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-constable-salisbury-cathedral-from-the-meadows-plate-3-p20311
+    thumbnail_url: ''
+    title: 'From Constable: Salisbury Cathedral from the Meadows (plate 3)'
+  model: tate_core.artwork
+  pk: 5bf1d050-3bcd-4fe5-9b3c-1caee4242dec
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1999'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rembrandt-the-lamentation-over-the-dead-christ-p20326
+    thumbnail_url: ''
+    title: 'From Rembrandt: The Lamentation over the Dead Christ'
+  model: tate_core.artwork
+  pk: 5d042ee3-c5e9-4daf-9e9a-55a2df253fba
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-triumph-of-pan-from-a-poussin-drawing-1-p11734
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11734_8.jpg
+    title: The Triumph of Pan (from a Poussin Drawing) (1)
+  model: tate_core.artwork
+  pk: 5f8666ae-0906-4d87-a227-4e84f68f0f3a
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1990\u20132"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-family-of-darius-before-alexander-3-from-veronese-p11717
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11717_8.jpg
+    title: The Family of Darius before Alexander (3) (from Veronese)
+  model: tate_core.artwork
+  pk: 6090d6ed-6227-481a-9b66-4e7cced5077d
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1990\u20132"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-syndics-p11727
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11727_8.jpg
+    title: The Syndics
+  model: tate_core.artwork
+  pk: 63fa3c5f-5f4a-43ee-aeaf-a514889aae75
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-testament-of-eudamidas-1-p11728
+    thumbnail_url: ''
+    title: The Testament of Eudamidas (1)
+  model: tate_core.artwork
+  pk: 658843aa-f59b-422c-99eb-1ecc9b5355ff
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-combing-the-hair-la-coiffure-p11697
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11697_8.jpg
+    title: Combing the Hair (La Coiffure)
+  model: tate_core.artwork
+  pk: 6864bba5-04de-4c22-ab62-d0b6612b60f6
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1991'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-constable-stoke-by-nayland-plate-1-p20309
+    thumbnail_url: ''
+    title: 'From Constable: Stoke-by-Nayland (plate 1)'
+  model: tate_core.artwork
+  pk: 6a749c75-0787-4a80-8839-a8c43f029bf2
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-cephalus-and-aurora-3-p11692
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11692_8.jpg
+    title: Cephalus and Aurora (3)
+  model: tate_core.artwork
+  pk: 6b60f794-a0f4-4667-909e-33f8a674a82c
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-bacchanal-before-a-herm-1-p11687
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11687_8.jpg
+    title: Bacchanal before a Herm (1)
+  model: tate_core.artwork
+  pk: 6c17463b-3b55-4844-8634-bee64ab58f90
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-bacchanal-before-a-herm-2-p11688
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11688_8.jpg
+    title: Bacchanal before a Herm (2)
+  model: tate_core.artwork
+  pk: 6cbff5ca-c75c-45cb-9822-04e0093c6250
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1979\u201384"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-going-home-stage-proof-p02938
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P02/P02938_8.jpg
+    title: Going Home [stage proof]
+  model: tate_core.artwork
+  pk: 6d9b61d7-6d34-48f4-a117-0a05e4d400f4
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-rebekha-quenching-the-thirst-of-eliezer-at-the-well-p11705
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11705_8.jpg
+    title: Rebekha Quenching the Thirst of Eliezer at the Well
+  model: tate_core.artwork
+  pk: 6df448b1-511c-48b6-aba9-c446eeef0362
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-consecration-of-saint-nicholas-1-p11713
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11713_8.jpg
+    title: The Consecration of Saint Nicholas (1)
+  model: tate_core.artwork
+  pk: 6eef8544-39ec-477f-b271-150bf34e0f4d
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-holy-family-on-the-step-p11718
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11718_8.jpg
+    title: The Holy Family on the Step
+  model: tate_core.artwork
+  pk: 6ffba8bc-b3f3-4ce7-8d61-442b04b8719c
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-christ-after-the-flagellation-contemplated-by-the-christian-soul-2-p11695
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11695_8.jpg
+    title: Christ after the Flagellation Contemplated by the Christian Soul (2)
+  model: tate_core.artwork
+  pk: 7168fab2-4d83-40f4-bbe4-a1b42c665bdc
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1971'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-childrens-swimming-pool-autumn-afternoon-t03246
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T03/T03246_8.jpg
+    title: "Children\u2019s Swimming Pool, Autumn Afternoon"
+  model: tate_core.artwork
+  pk: 72592009-b31f-4a42-b689-8ecefee1d4e1
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1999'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-poussin-the-destruction-and-the-sack-of-the-temple-of-jerusalem-p20302
+    thumbnail_url: ''
+    title: 'From Poussin: The Destruction and the Sack of the Temple of Jerusalem'
+  model: tate_core.artwork
+  pk: 748861c1-e33a-46f1-b8a5-5bdd090803f8
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1974'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-demolition-of-the-old-house-dalston-junction-summer-1974-t01984
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T01/T01984_8.jpg
+    title: Demolition of the Old House, Dalston Junction, Summer 1974
+  model: tate_core.artwork
+  pk: 75225ac8-fd35-4a32-b6db-ceaf42dbb0ed
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-family-of-darius-before-alexander-1-p11715
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11715_8.jpg
+    title: The Family of Darius before Alexander (1)
+  model: tate_core.artwork
+  pk: 7857b541-c75d-4dd5-9a70-e81595e60d6d
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-triumph-of-pan-from-a-poussin-drawing-2-p11735
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11735_8.jpg
+    title: The Triumph of Pan (from a Poussin Drawing) (2)
+  model: tate_core.artwork
+  pk: 7a12155c-f38a-40e5-87ab-db10e16d5e1d
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-brazen-serpent-2-p11711
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11711_8.jpg
+    title: The Brazen Serpent (2)
+  model: tate_core.artwork
+  pk: 7acd793c-a6ca-471f-87d6-79c1069794dc
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-rape-of-the-sabines-2-p11726
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11726_8.jpg
+    title: The Rape of the Sabines (2)
+  model: tate_core.artwork
+  pk: 7bef3f57-571a-43f0-a962-b1e667d34060
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-triumph-of-pan-3-p11732
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11732_8.jpg
+    title: The Triumph of Pan (3)
+  model: tate_core.artwork
+  pk: 85758346-ddda-4ebe-8116-cd4086906b33
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1954'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-railway-bridge-mornington-crescent-p77992
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P77/P77992_8.jpg
+    title: Railway Bridge, Mornington Crescent
+  model: tate_core.artwork
+  pk: 8bd93173-d8a2-448b-9fbf-d259b48f85b2
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1965'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-drawing-for-woman-ill-in-bed-surrounded-by-family-rosalind-t03279
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T03/T03279_8.jpg
+    title: "Drawing for \u2018Woman Ill in Bed Surrounded by Family (Rosalind)\u2019"
+  model: tate_core.artwork
+  pk: 8db9c6b9-871f-42db-9f35-387b3ddf13ee
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1999'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rubens-minerva-protects-pax-from-mars-plate-5-p20306
+    thumbnail_url: ''
+    title: 'From Rubens: Minerva Protects Pax from Mars (plate 5)'
+  model: tate_core.artwork
+  pk: 8ff74d62-e4ba-4805-9c72-654c788a408d
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '2000'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-poussin-a-bacchanalian-revel-before-a-term-p20300
+    thumbnail_url: ''
+    title: 'From Poussin: A Bacchanalian Revel before a Term'
+  model: tate_core.artwork
+  pk: 9025fa7d-b061-4a29-bc6d-4c0949839c39
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1981'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-outside-kilburn-underground-stage-proof-p02935
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P02/P02935_8.jpg
+    title: Outside Kilburn Underground [stage proof]
+  model: tate_core.artwork
+  pk: 9093ae97-8545-4c8c-b1b5-9b5de9ff2860
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1990'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-christ-church-spitalfields-t06771
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T06/T06771_8.jpg
+    title: Christ Church, Spitalfields
+  model: tate_core.artwork
+  pk: 917f2e58-67d3-41f9-a26d-7e7959a93aef
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1996\u20137"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-constable-salisbury-cathedral-from-the-meadows-plate-3-p20312
+    thumbnail_url: ''
+    title: 'From Constable: Salisbury Cathedral from the Meadows (plate 3)'
+  model: tate_core.artwork
+  pk: 91d1347a-400d-4dd8-9495-5966c98179a6
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1943\u20134"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-saturday-morning-class-st-martins-t07029
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T07/T07029_8.jpg
+    title: "Saturday Morning Class, St Martin\u2019s"
+  model: tate_core.artwork
+  pk: 924fe52b-88ef-4fe3-b3f3-caf57cb934f3
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1952'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-building-site-oxford-street-t07199
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T07/T07199_8.jpg
+    title: Building Site, Oxford Street
+  model: tate_core.artwork
+  pk: 972b1e40-7d82-44a1-85dc-f6aa9d96c3e0
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-a-woman-bathing-in-a-stream-hendrickje-stoffels-p11686
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11686_8.jpg
+    title: A Woman Bathing in a Stream (Hendrickje Stoffels)
+  model: tate_core.artwork
+  pk: 996eed14-82be-44ad-bf39-7bd91dc4f789
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-cephalus-and-aurora-1-p11690
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11690_8.jpg
+    title: Cephalus and Aurora (1)
+  model: tate_core.artwork
+  pk: 9a32412f-e21f-44f2-9149-bd3ac8a82e7d
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-judgement-of-solomon-2-p11699
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11699_8.jpg
+    title: Judgement of Solomon (2)
+  model: tate_core.artwork
+  pk: 9de3fd44-965b-4838-9137-9dc103392c35
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-blinding-of-sampson-p11709
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11709_8.jpg
+    title: The Blinding of Sampson
+  model: tate_core.artwork
+  pk: a0e5af06-5458-499d-8c7a-7d93e15ff386
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1996\u20137"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-constable-salisbury-cathedral-from-the-meadows-plate-3-p20313
+    thumbnail_url: ''
+    title: 'From Constable: Salisbury Cathedral from the Meadows (plate 3)'
+  model: tate_core.artwork
+  pk: a9847648-93ba-4d8b-a1bf-3e07c3814294
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: c.1957
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-head-t06985
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T06/T06985_8.jpg
+    title: Head
+  model: tate_core.artwork
+  pk: abdebcd9-05b5-4cfe-836c-09ddbb6b94cb
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1991'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-constable-stoke-by-nayland-plate-2-p20317
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P20/P20317_8.jpg
+    title: 'From Constable: Stoke-by-Nayland (plate 2)'
+  model: tate_core.artwork
+  pk: af119a0e-5ca3-47c9-a991-6a777bc316b7
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1990\u20139"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rembrandt-ecce-homo-p20316
+    thumbnail_url: ''
+    title: 'From Rembrandt: Ecce Homo'
+  model: tate_core.artwork
+  pk: b03404b9-0909-414f-9b31-c1c053f8544f
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1996\u20137"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-constable-salisbury-cathedral-from-the-meadows-plate-1-p20318
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P20/P20318_8.jpg
+    title: 'From Constable: Salisbury Cathedral from the Meadows (plate 1)'
+  model: tate_core.artwork
+  pk: b276ac58-5596-42ce-a5b3-08d0d9480dfb
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1990'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-christ-church-spitalfields-morning-t06735
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T06/T06735_8.jpg
+    title: Christ Church, Spitalfields, Morning
+  model: tate_core.artwork
+  pk: b4502193-e487-4063-8022-ecd831626401
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1999'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-poussin-landscape-with-a-man-killed-by-a-snake-p20299
+    thumbnail_url: ''
+    title: 'From Poussin: Landscape with a Man Killed by a Snake'
+  model: tate_core.artwork
+  pk: b932fe4b-0d53-4b03-a615-5a1e1081afb8
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '2006'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rubens-the-judgment-of-paris-p20324
+    thumbnail_url: ''
+    title: 'From Rubens: The Judgment of Paris'
+  model: tate_core.artwork
+  pk: b93baca0-32aa-4b5c-b401-70d877da845a
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '2006'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rubens-the-judgement-of-paris-p20304
+    thumbnail_url: ''
+    title: 'From Rubens: The Judgement of Paris'
+  model: tate_core.artwork
+  pk: b9cc6dc8-2781-4570-bbed-0094a0d08f8a
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1993'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-portrait-of-anne-t07188
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T07/T07188_8.jpg
+    title: Portrait of Anne
+  model: tate_core.artwork
+  pk: bd27ab24-9721-4274-944a-d154d0db9b1b
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1986'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-veronese-the-consecration-of-saint-nicholas-p20298
+    thumbnail_url: ''
+    title: 'From Veronese: The Consecration of Saint Nicholas'
+  model: tate_core.artwork
+  pk: bdad909d-a350-4784-9b83-5534a015ad08
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-minerva-protects-pax-from-mars-peace-and-war-1-p11700
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11700_8.jpg
+    title: "Minerva Protects Pax from Mars (\u2018Peace and War\u2019) (1)"
+  model: tate_core.artwork
+  pk: be95cfb3-590f-4204-be61-7484e86586c9
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-minerva-protects-pax-from-mars-peace-and-war-2-p11701
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11701_8.jpg
+    title: "Minerva Protects Pax from Mars (\u2018Peace and War\u2019) (2)"
+  model: tate_core.artwork
+  pk: c0bd05c7-5769-4341-adad-52ae99e5cd6c
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1999'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rubens-minerva-protects-pax-from-mars-plate-6-p20307
+    thumbnail_url: ''
+    title: 'From Rubens: Minerva Protects Pax from Mars (plate 6)'
+  model: tate_core.artwork
+  pk: c6eeead6-e8e6-404b-b65d-7a823e4dca83
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-lamentation-over-the-dead-christ-1-p11721
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11721_8.jpg
+    title: The Lamentation over the Dead Christ (1)
+  model: tate_core.artwork
+  pk: ca92a85a-939e-4c67-a3af-f4755040774e
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1990\u20139"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-veronese-the-adoration-of-the-kings-p20314
+    thumbnail_url: ''
+    title: 'From Veronese: The Adoration of the Kings'
+  model: tate_core.artwork
+  pk: cb78b64f-36e9-4f82-a55d-bd7a1281e5d6
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1965'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-drawing-for-woman-ill-in-bed-surrounded-by-family-t03277
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T03/T03277_8.jpg
+    title: "Drawing for \u2018Woman Ill in Bed Surrounded by Family\u2019"
+  model: tate_core.artwork
+  pk: cbfb7ad2-94fb-49d3-9e8a-cba9b112d8a2
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1995'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-flower-and-fruit-stalls-embankment-1995-t07297
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T07/T07297_8.jpg
+    title: The Flower and Fruit Stalls, Embankment 1995
+  model: tate_core.artwork
+  pk: d165a228-0fea-4cd2-9d6e-48d9d57e1fd3
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-adoration-of-the-kings-p11708
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11708_8.jpg
+    title: The Adoration of the Kings
+  model: tate_core.artwork
+  pk: d4bd9b4f-e633-4291-a0f7-8f29f557126f
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-poussin-cephalus-and-aurora-p20328
+    thumbnail_url: ''
+    title: 'From Poussin: Cephalus and  Aurora'
+  model: tate_core.artwork
+  pk: d51a613c-b6ce-44de-bf6c-ff8fef811463
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-brazen-serpent-1-p11710
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11710_8.jpg
+    title: The Brazen Serpent (1)
+  model: tate_core.artwork
+  pk: d81fb5d2-6392-4224-8a20-d76307c5eb35
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1984'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-outside-kilburn-underground-stage-proof-p02937
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P02/P02937_8.jpg
+    title: Outside Kilburn Underground [stage proof]
+  model: tate_core.artwork
+  pk: d9c0a6e8-46a0-4825-bf1f-f64cda442876
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-triumph-of-pan-2-p11731
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11731_8.jpg
+    title: The Triumph of Pan (2)
+  model: tate_core.artwork
+  pk: df4cd98c-ba96-458d-add7-6ad68a87c4af
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-the-nurture-of-bacchus-p11724
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11724_8.jpg
+    title: The Nurture of Bacchus
+  model: tate_core.artwork
+  pk: e0b75e5d-53ae-4cf3-a3ad-8fc81a89fc2b
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1996\u20137"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-constable-salisbury-cathedral-from-the-meadows-plate-2-p20319
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P20/P20319_8.jpg
+    title: 'From Constable: Salisbury Cathedral from the Meadows (plate 2)'
+  model: tate_core.artwork
+  pk: e1e30970-329b-42f6-b52f-03bb5b217bb0
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-minerva-protects-pax-from-mars-peace-and-war-5-p11704
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11704_8.jpg
+    title: "Minerva Protects Pax from Mars (\u2018Peace and War\u2019) (5)"
+  model: tate_core.artwork
+  pk: e39a233f-c91d-4e92-b5f3-22126352b7f2
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: "1990\u20139"
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-degas-combing-the-hair-la-coiffure-p20297
+    thumbnail_url: ''
+    title: "From Degas: Combing the Hair (\u2018La Coiffure\u2019)"
+  model: tate_core.artwork
+  pk: e4edd7b4-1846-4473-95be-5cc081721944
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1999'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rubens-the-judgement-of-paris-p20305
+    thumbnail_url: ''
+    title: 'From Rubens: The Judgement of Paris'
+  model: tate_core.artwork
+  pk: e5c5c74d-0b7f-4314-82cf-a209a6728f5e
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1999'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-from-rembrandt-the-lamentation-over-the-dead-christ-p20296
+    thumbnail_url: ''
+    title: 'From Rembrandt: The Lamentation over the Dead Christ'
+  model: tate_core.artwork
+  pk: e7a7b767-8b34-4e07-bd11-7118d866f4a7
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1984'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-going-home-p77052
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P77/P77052_8.jpg
+    title: Going Home
+  model: tate_core.artwork
+  pk: e7d49aa1-9774-4279-a116-8d25d1462af0
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-christ-after-the-flagellation-contemplated-by-the-christian-soul-1-p11694
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11694_8.jpg
+    title: Christ after the Flagellation Contemplated by the Christian Soul (1)
+  model: tate_core.artwork
+  pk: e9df1345-d445-450e-a2a8-1ea1fb36a72d
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1980'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-two-seated-figures-no-2-t03680
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T03/T03680_8.jpg
+    title: Two Seated Figures No. 2
+  model: tate_core.artwork
+  pk: ef53a1b8-9074-4f1c-9ee4-903f27ad6e13
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-salisbury-cathedral-from-the-meadows-1-p11706
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11706_8.jpg
+    title: Salisbury Cathedral from the Meadows (1)
+  model: tate_core.artwork
+  pk: f48e7bbe-82e9-4c2c-8c47-d0435b035812
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-minerva-protects-pax-from-mars-peace-and-war-4-p11703
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11703_8.jpg
+    title: "Minerva Protects Pax from Mars (\u2018Peace and War\u2019) (4)"
+  model: tate_core.artwork
+  pk: f9d72dee-7d46-481f-ac25-7c114bb2915a
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1980'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-outside-kilburn-underground-stage-proof-p02934
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P02/P02934_8.jpg
+    title: Outside Kilburn Underground [stage proof]
+  model: tate_core.artwork
+  pk: f9def4dd-0ece-439b-9730-e9f5dd820e03
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1987'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-booking-hall-kilburn-underground-t05531
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T05/T05531_8.jpg
+    title: Booking Hall, Kilburn Underground
+  model: tate_core.artwork
+  pk: fa7d56c8-4d68-4c5d-87ec-3e5df46a6d02
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-cephalus-and-aurora-2-p11691
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11691_8.jpg
+    title: Cephalus and Aurora (2)
+  model: tate_core.artwork
+  pk: fccf1add-1b00-4ba0-a662-a32426c66094
+- fields:
+    artist: 00fa54da-0ee9-4586-941b-93d0838e4ae8
+    date_text: '1998'
+    tate_url: http://www.tate.org.uk/art/artworks/kossoff-minerva-protects-pax-from-mars-peace-and-war-3-p11702
+    thumbnail_url: http://www.tate.org.uk/art/images/work/P/P11/P11702_8.jpg
+    title: "Minerva Protects Pax from Mars (\u2018Peace and War\u2019) (3)"
+  model: tate_core.artwork
+  pk: fce533a9-0e6f-4bd1-8a41-c5b2633143ba
+- fields:
+    birth_year: 1934
+    death_year: null
+    name: Anselmo, Giovanni
+    place_of_birth: Piemonte, Italia
+    tate_id: 12475
+    tate_url: http://www.tate.org.uk/art/artists/giovanni-anselmo-12475
+  model: tate_core.artist
+  pk: 011d2157-a9fc-4a92-acbe-f2ab9757d277
+- fields:
+    artist: 011d2157-a9fc-4a92-acbe-f2ab9757d277
+    date_text: "1967\u20138"
+    tate_url: http://www.tate.org.uk/art/artworks/anselmo-direction-t12953
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T12/T12953_8.jpg
+    title: Direction
+  model: tate_core.artwork
+  pk: 2aba4c7f-1034-43dc-918e-a080fe75c13a
+- fields:
+    artist: 011d2157-a9fc-4a92-acbe-f2ab9757d277
+    date_text: "1972\u20132008"
+    tate_url: http://www.tate.org.uk/art/artworks/anselmo-detail-t12954
+    thumbnail_url: ''
+    title: Detail
+  model: tate_core.artwork
+  pk: e4336c89-5879-4158-82dc-323277bbc202
+- fields:
+    birth_year: 1861
+    death_year: 1951
+    name: Walker, Dame Ethel
+    place_of_birth: Edinburgh, United Kingdom
+    tate_id: 2115
+    tate_url: http://www.tate.org.uk/art/artists/dame-ethel-walker-2115
+  model: tate_core.artist
+  pk: 012eae0b-f8f8-476b-846c-5d9ec289be58
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: c.1935
+    tate_url: http://www.tate.org.uk/art/artworks/walker-seascape-autumn-morning-n05332
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N05/N05332_8.jpg
+    title: 'Seascape: Autumn Morning'
+  model: tate_core.artwork
+  pk: 00f02ebd-65c2-41b9-9ab1-dcd15ae4a338
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: c.1922
+    tate_url: http://www.tate.org.uk/art/artworks/walker-miss-buchanan-n03685
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N03/N03685_8.jpg
+    title: Miss Buchanan
+  model: tate_core.artwork
+  pk: 0f27d816-98d3-4aa6-b494-f87f72b2a13c
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: c.1901
+    tate_url: http://www.tate.org.uk/art/artworks/walker-the-hon-mrs-adams-n04944
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N04/N04944_8.jpg
+    title: The Hon. Mrs Adams
+  model: tate_core.artwork
+  pk: 54c225bc-c166-4f45-8ded-4a9a6a3f6fbf
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: c.1899
+    tate_url: http://www.tate.org.uk/art/artworks/walker-the-artists-stepmother-mrs-arthur-walker-n06028
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N06/N06028_8.jpg
+    title: "The Artist\u2019s Stepmother, Mrs Arthur Walker"
+  model: tate_core.artwork
+  pk: 563a7acb-d1b5-43f2-aa05-e3d3b8ffa82b
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: '1937'
+    tate_url: http://www.tate.org.uk/art/artworks/walker-vanessa-n05038
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N05/N05038_8.jpg
+    title: Vanessa
+  model: tate_core.artwork
+  pk: 5abb8e3a-5809-4d36-aa7b-9da741cf78af
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: ?exhibited 1916
+    tate_url: http://www.tate.org.uk/art/artworks/walker-lilith-t00131
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T00/T00131_8.jpg
+    title: Lilith
+  model: tate_core.artwork
+  pk: 7e710dc6-2e1b-4ff8-920d-feb459bcd3e9
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: c.1919
+    tate_url: http://www.tate.org.uk/art/artworks/walker-two-figures-study-for-the-excursion-of-nausicaa-n03874
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N03/N03874_8.jpg
+    title: "Two Figures, Study for \u2018The Excursion of Nausicaa\u2019"
+  model: tate_core.artwork
+  pk: 84e5b8d0-8cd2-4707-96fc-4b1bdb7633e4
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: "c.1930\u20132"
+    tate_url: http://www.tate.org.uk/art/artworks/walker-the-zone-of-love-decoration-n05668
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N05/N05668_8.jpg
+    title: 'The Zone of Love: Decoration'
+  model: tate_core.artwork
+  pk: a3a8466e-1a9e-4826-bc3d-9f0999b8a67d
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: "c.1935\u20136"
+    tate_url: http://www.tate.org.uk/art/artworks/walker-flowers-in-a-jug-t00128
+    thumbnail_url: http://www.tate.org.uk/art/images/work/T/T00/T00128_8.jpg
+    title: Flowers in a Jug
+  model: tate_core.artwork
+  pk: b55cef8c-456e-49b1-af88-d2eae6fbde63
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: '1920'
+    tate_url: http://www.tate.org.uk/art/artworks/walker-decoration-the-excursion-of-nausicaa-n03885
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N03/N03885_8.jpg
+    title: 'Decoration: The Excursion of Nausicaa'
+  model: tate_core.artwork
+  pk: bc27ec8d-855b-4b99-b67c-d28c27a642f9
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: "1927\u20138"
+    tate_url: http://www.tate.org.uk/art/artworks/walker-miss-jean-werner-laurie-n04669
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N04/N04669_8.jpg
+    title: Miss Jean Werner Laurie
+  model: tate_core.artwork
+  pk: c8e13222-cfd4-4b91-b6a9-00e069543b27
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: ?exhibited 1930
+    tate_url: http://www.tate.org.uk/art/artworks/walker-self-portrait-n06006
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N06/N06006_8.jpg
+    title: Self-Portrait
+  model: tate_core.artwork
+  pk: cf83e7e9-37c8-4162-ae51-11e571de0fe4
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: "1914\u20135"
+    tate_url: http://www.tate.org.uk/art/artworks/walker-the-zone-of-hate-decoration-n05669
+    thumbnail_url: ''
+    title: 'The Zone of Hate: Decoration'
+  model: tate_core.artwork
+  pk: dc426161-6b25-4b05-8bca-a9839607d753
+- fields:
+    artist: 012eae0b-f8f8-476b-846c-5d9ec289be58
+    date_text: "c.1910\u201320"
+    tate_url: http://www.tate.org.uk/art/artworks/walker-the-bathers-n05855
+    thumbnail_url: http://www.tate.org.uk/art/images/work/N/N05/N05855_8.jpg
+    title: The Bathers
+  model: tate_core.artwork
+  pk: ede23b07-7aae-4d27-b728-8562594eb079
+- fields:
+    birth_year: 1867
+    death_year: 1959
+    name: Moira, Gerald
+    place_of_birth: London, United Kingdom
+    tate_id: 1650
+    tate_url: http://www.tate.org.uk/art/artists/gerald-moira-1650
+  model: tate_core.artist
+  pk: 013d327e-fda6-4f48-b6b4-38f107714ba0
+- fields:
+    artist: 013d327e-fda6-4f48-b6b4-38f107714ba0
+    date_text: exhibited 1938
+    tate_url: http://www.tate.org.uk/art/artworks/moira-washing-day-n04966
+    thumbnail_url: ''
+    title: Washing Day
+  model: tate_core.artwork
+  pk: b4b6968b-c95d-4458-b85b-5b1f6b8266a3

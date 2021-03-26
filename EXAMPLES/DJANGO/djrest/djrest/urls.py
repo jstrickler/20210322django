@@ -20,7 +20,8 @@ from django.urls import path, include
 from django.contrib import admin
 from django import VERSION
 
-# site-wide route mapping
+# site-wide
+# route mapping
 urlpatterns = [
         path('admin/', admin.site.urls),
         path('api/', include(('apiv1.urls', "apiv1"))),

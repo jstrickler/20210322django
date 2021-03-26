@@ -4,3 +4,7 @@ cookiecutter
 django-extensions
 django-crispy-forms
 django-rest-swagger
+django-filter
+djoser
+sphinx
+

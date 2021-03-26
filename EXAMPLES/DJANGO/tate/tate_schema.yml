@@ -1,0 +1,1042 @@
+openapi: 3.0.3
+info:
+  title: ''
+  version: 0.0.0
+paths:
+  /api/artists/:
+    get:
+      operationId: api_artists_list
+      description: |-
+        retrieve:
+        Return the given artist.
+
+        list:
+        Return a list of all artists.
+
+        create:
+        Create a new artist instance.
+      parameters:
+      - name: alive
+        required: false
+        in: query
+        description: alive
+        schema:
+          type: string
+      - name: birthplace
+        required: false
+        in: query
+        description: birthplace
+        schema:
+          type: string
+      - name: max_birth_year
+        required: false
+        in: query
+        description: max_birth_year
+        schema:
+          type: string
+      - name: max_death_year
+        required: false
+        in: query
+        description: max_death_year
+        schema:
+          type: string
+      - name: min_birth_year
+        required: false
+        in: query
+        description: min_birth_year
+        schema:
+          type: string
+      - name: min_death_year
+        required: false
+        in: query
+        description: min_death_year
+        schema:
+          type: string
+      - name: name
+        required: false
+        in: query
+        description: name
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Artist'
+          description: ''
+    post:
+      operationId: api_artists_create
+      description: |-
+        retrieve:
+        Return the given artist.
+
+        list:
+        Return a list of all artists.
+
+        create:
+        Create a new artist instance.
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Artist'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Artist'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Artist'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artist'
+          description: ''
+  /api/artists-cbv:
+    get:
+      operationId: api_artists_cbv_list
+      description: ''
+      parameters:
+      - name: alive
+        required: false
+        in: query
+        description: alive
+        schema:
+          type: string
+      - name: birthplace
+        required: false
+        in: query
+        description: birthplace
+        schema:
+          type: string
+      - name: max_birth_year
+        required: false
+        in: query
+        description: max_birth_year
+        schema:
+          type: string
+      - name: max_death_year
+        required: false
+        in: query
+        description: max_death_year
+        schema:
+          type: string
+      - name: min_birth_year
+        required: false
+        in: query
+        description: min_birth_year
+        schema:
+          type: string
+      - name: min_death_year
+        required: false
+        in: query
+        description: min_death_year
+        schema:
+          type: string
+      - name: name
+        required: false
+        in: query
+        description: name
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Artist'
+          description: ''
+    post:
+      operationId: api_artists_cbv_create
+      description: ''
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Artist'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Artist'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Artist'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artist'
+          description: ''
+  /api/artists-cbv/{id}:
+    get:
+      operationId: api_artists_cbv_retrieve
+      description: ''
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artist
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artist'
+          description: ''
+    put:
+      operationId: api_artists_cbv_update
+      description: ''
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artist
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Artist'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Artist'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Artist'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artist'
+          description: ''
+    patch:
+      operationId: api_artists_cbv_partial_update
+      description: ''
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artist
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedArtist'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedArtist'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedArtist'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artist'
+          description: ''
+    delete:
+      operationId: api_artists_cbv_destroy
+      description: ''
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artist
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '204':
+          description: No response body
+  /api/artists-fbv/{guid}:
+    get:
+      operationId: api_artists_fbv_retrieve
+      description: ''
+      parameters:
+      - in: path
+        name: guid
+        schema:
+          type: string
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          description: No response body
+  /api/artists/{id}/:
+    get:
+      operationId: api_artists_retrieve
+      description: |-
+        retrieve:
+        Return the given artist.
+
+        list:
+        Return a list of all artists.
+
+        create:
+        Create a new artist instance.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artist
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artist'
+          description: ''
+    put:
+      operationId: api_artists_update
+      description: |-
+        retrieve:
+        Return the given artist.
+
+        list:
+        Return a list of all artists.
+
+        create:
+        Create a new artist instance.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artist
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Artist'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Artist'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Artist'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artist'
+          description: ''
+    patch:
+      operationId: api_artists_partial_update
+      description: |-
+        retrieve:
+        Return the given artist.
+
+        list:
+        Return a list of all artists.
+
+        create:
+        Create a new artist instance.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artist
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedArtist'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedArtist'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedArtist'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artist'
+          description: ''
+    delete:
+      operationId: api_artists_destroy
+      description: |-
+        retrieve:
+        Return the given artist.
+
+        list:
+        Return a list of all artists.
+
+        create:
+        Create a new artist instance.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artist
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '204':
+          description: No response body
+  /api/artworks/:
+    get:
+      operationId: api_artworks_list
+      description: |-
+        retrieve:
+        Return the given artwork.
+
+        list:
+        Return a list of all artworks.
+
+        create:
+        Create a new artwork instance.
+      parameters:
+      - name: title
+        required: false
+        in: query
+        description: title
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Artwork'
+          description: ''
+    post:
+      operationId: api_artworks_create
+      description: |-
+        retrieve:
+        Return the given artwork.
+
+        list:
+        Return a list of all artworks.
+
+        create:
+        Create a new artwork instance.
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Artwork'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Artwork'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Artwork'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artwork'
+          description: ''
+  /api/artworks/{id}/:
+    get:
+      operationId: api_artworks_retrieve
+      description: |-
+        retrieve:
+        Return the given artwork.
+
+        list:
+        Return a list of all artworks.
+
+        create:
+        Create a new artwork instance.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artwork
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artwork'
+          description: ''
+    put:
+      operationId: api_artworks_update
+      description: |-
+        retrieve:
+        Return the given artwork.
+
+        list:
+        Return a list of all artworks.
+
+        create:
+        Create a new artwork instance.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artwork
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Artwork'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Artwork'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Artwork'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artwork'
+          description: ''
+    patch:
+      operationId: api_artworks_partial_update
+      description: |-
+        retrieve:
+        Return the given artwork.
+
+        list:
+        Return a list of all artworks.
+
+        create:
+        Create a new artwork instance.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artwork
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedArtwork'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedArtwork'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedArtwork'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artwork'
+          description: ''
+    delete:
+      operationId: api_artworks_destroy
+      description: |-
+        retrieve:
+        Return the given artwork.
+
+        list:
+        Return a list of all artworks.
+
+        create:
+        Create a new artwork instance.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+          description: Unique ID of this artwork
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '204':
+          description: No response body
+  /api/hello:
+    get:
+      operationId: api_hello_retrieve
+      description: ''
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          description: No response body
+  /api/schema/:
+    get:
+      operationId: api_schema_retrieve
+      description: |-
+        OpenApi3 schema for this API. Format can be selected via content negotiation.
+
+        - YAML: application/vnd.oai.openapi
+        - JSON: application/vnd.oai.openapi+json
+      parameters:
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - yaml
+      - in: query
+        name: lang
+        schema:
+          type: string
+          enum:
+          - af
+          - ar
+          - ar-dz
+          - ast
+          - az
+          - be
+          - bg
+          - bn
+          - br
+          - bs
+          - ca
+          - cs
+          - cy
+          - da
+          - de
+          - dsb
+          - el
+          - en
+          - en-au
+          - en-gb
+          - eo
+          - es
+          - es-ar
+          - es-co
+          - es-mx
+          - es-ni
+          - es-ve
+          - et
+          - eu
+          - fa
+          - fi
+          - fr
+          - fy
+          - ga
+          - gd
+          - gl
+          - he
+          - hi
+          - hr
+          - hsb
+          - hu
+          - hy
+          - ia
+          - id
+          - ig
+          - io
+          - is
+          - it
+          - ja
+          - ka
+          - kab
+          - kk
+          - km
+          - kn
+          - ko
+          - ky
+          - lb
+          - lt
+          - lv
+          - mk
+          - ml
+          - mn
+          - mr
+          - my
+          - nb
+          - ne
+          - nl
+          - nn
+          - os
+          - pa
+          - pl
+          - pt
+          - pt-br
+          - ro
+          - ru
+          - sk
+          - sl
+          - sq
+          - sr
+          - sr-latn
+          - sv
+          - sw
+          - ta
+          - te
+          - tg
+          - th
+          - tk
+          - tr
+          - tt
+          - udm
+          - uk
+          - ur
+          - uz
+          - vi
+          - zh-hans
+          - zh-hant
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/vnd.oai.openapi:
+              schema:
+                type: object
+                additionalProperties: {}
+            application/yaml:
+              schema:
+                type: object
+                additionalProperties: {}
+            application/vnd.oai.openapi+json:
+              schema:
+                type: object
+                additionalProperties: {}
+            application/json:
+              schema:
+                type: object
+                additionalProperties: {}
+          description: ''
+components:
+  schemas:
+    Artist:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+          description: Unique ID of this artist
+        name:
+          type: string
+          description: Artist's full name
+          maxLength: 256
+        place_of_birth:
+          type: string
+          nullable: true
+          description: Location of artist's birth
+          maxLength: 256
+        birth_year:
+          type: integer
+          nullable: true
+          description: Year the artist was born
+        death_year:
+          type: integer
+          nullable: true
+          description: Year the artist died
+        tate_url:
+          type: string
+          format: uri
+          nullable: true
+          description: Link to this artist at www.tate.org.uk
+          maxLength: 200
+          pattern: "^(?:[a-z0-9.+-]*)://(?:[^\\s:@/]+(?::[^\\s:@/]*)?@)?(?:(?:25[0-5]|2[0-4]\\\
+            d|[0-1]?\\d?\\d)(?:\\.(?:25[0-5]|2[0-4]\\d|[0-1]?\\d?\\d)){3}|\\[[0-9a-f:.]+\\\
+            ]|([a-z¡-\uFFFF0-9](?:[a-z¡-\uFFFF0-9-]{0,61}[a-z¡-\uFFFF0-9])?(?:\\.(?!-)[a-z¡-\uFFFF\
+            0-9-]{1,63}(?<!-))*\\.(?!-)(?:[a-z¡-\uFFFF-]{2,63}|xn--[a-z0-9]{1,59})(?<!-)\\\
+            .?|localhost))(?::\\d{2,5})?(?:[/?#][^\\s]*)?\\Z"
+        artworks:
+          type: array
+          items:
+            type: string
+            format: uri
+          readOnly: true
+      required:
+      - artworks
+      - id
+      - name
+    Artwork:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+          description: Unique ID of this artwork
+        title:
+          type: string
+          description: Title of the artwork
+          maxLength: 512
+        date_text:
+          type: string
+          description: Date artwork was completed (if known)
+          maxLength: 64
+        thumbnail_url:
+          type: string
+          format: uri
+          description: Link to a thumbnail of this artwork at www.tate.org.uk
+          maxLength: 200
+          pattern: "^(?:[a-z0-9.+-]*)://(?:[^\\s:@/]+(?::[^\\s:@/]*)?@)?(?:(?:25[0-5]|2[0-4]\\\
+            d|[0-1]?\\d?\\d)(?:\\.(?:25[0-5]|2[0-4]\\d|[0-1]?\\d?\\d)){3}|\\[[0-9a-f:.]+\\\
+            ]|([a-z¡-\uFFFF0-9](?:[a-z¡-\uFFFF0-9-]{0,61}[a-z¡-\uFFFF0-9])?(?:\\.(?!-)[a-z¡-\uFFFF\
+            0-9-]{1,63}(?<!-))*\\.(?!-)(?:[a-z¡-\uFFFF-]{2,63}|xn--[a-z0-9]{1,59})(?<!-)\\\
+            .?|localhost))(?::\\d{2,5})?(?:[/?#][^\\s]*)?\\Z"
+        tate_url:
+          type: string
+          format: uri
+          description: Link to a full image of this artwork at www.tate.org.uk
+          maxLength: 200
+          pattern: "^(?:[a-z0-9.+-]*)://(?:[^\\s:@/]+(?::[^\\s:@/]*)?@)?(?:(?:25[0-5]|2[0-4]\\\
+            d|[0-1]?\\d?\\d)(?:\\.(?:25[0-5]|2[0-4]\\d|[0-1]?\\d?\\d)){3}|\\[[0-9a-f:.]+\\\
+            ]|([a-z¡-\uFFFF0-9](?:[a-z¡-\uFFFF0-9-]{0,61}[a-z¡-\uFFFF0-9])?(?:\\.(?!-)[a-z¡-\uFFFF\
+            0-9-]{1,63}(?<!-))*\\.(?!-)(?:[a-z¡-\uFFFF-]{2,63}|xn--[a-z0-9]{1,59})(?<!-)\\\
+            .?|localhost))(?::\\d{2,5})?(?:[/?#][^\\s]*)?\\Z"
+        artist:
+          type: string
+          format: uri
+          readOnly: true
+      required:
+      - artist
+      - date_text
+      - id
+      - tate_url
+      - thumbnail_url
+    PatchedArtist:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+          description: Unique ID of this artist
+        name:
+          type: string
+          description: Artist's full name
+          maxLength: 256
+        place_of_birth:
+          type: string
+          nullable: true
+          description: Location of artist's birth
+          maxLength: 256
+        birth_year:
+          type: integer
+          nullable: true
+          description: Year the artist was born
+        death_year:
+          type: integer
+          nullable: true
+          description: Year the artist died
+        tate_url:
+          type: string
+          format: uri
+          nullable: true
+          description: Link to this artist at www.tate.org.uk
+          maxLength: 200
+          pattern: "^(?:[a-z0-9.+-]*)://(?:[^\\s:@/]+(?::[^\\s:@/]*)?@)?(?:(?:25[0-5]|2[0-4]\\\
+            d|[0-1]?\\d?\\d)(?:\\.(?:25[0-5]|2[0-4]\\d|[0-1]?\\d?\\d)){3}|\\[[0-9a-f:.]+\\\
+            ]|([a-z¡-\uFFFF0-9](?:[a-z¡-\uFFFF0-9-]{0,61}[a-z¡-\uFFFF0-9])?(?:\\.(?!-)[a-z¡-\uFFFF\
+            0-9-]{1,63}(?<!-))*\\.(?!-)(?:[a-z¡-\uFFFF-]{2,63}|xn--[a-z0-9]{1,59})(?<!-)\\\
+            .?|localhost))(?::\\d{2,5})?(?:[/?#][^\\s]*)?\\Z"
+        artworks:
+          type: array
+          items:
+            type: string
+            format: uri
+          readOnly: true
+    PatchedArtwork:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+          description: Unique ID of this artwork
+        title:
+          type: string
+          description: Title of the artwork
+          maxLength: 512
+        date_text:
+          type: string
+          description: Date artwork was completed (if known)
+          maxLength: 64
+        thumbnail_url:
+          type: string
+          format: uri
+          description: Link to a thumbnail of this artwork at www.tate.org.uk
+          maxLength: 200
+          pattern: "^(?:[a-z0-9.+-]*)://(?:[^\\s:@/]+(?::[^\\s:@/]*)?@)?(?:(?:25[0-5]|2[0-4]\\\
+            d|[0-1]?\\d?\\d)(?:\\.(?:25[0-5]|2[0-4]\\d|[0-1]?\\d?\\d)){3}|\\[[0-9a-f:.]+\\\
+            ]|([a-z¡-\uFFFF0-9](?:[a-z¡-\uFFFF0-9-]{0,61}[a-z¡-\uFFFF0-9])?(?:\\.(?!-)[a-z¡-\uFFFF\
+            0-9-]{1,63}(?<!-))*\\.(?!-)(?:[a-z¡-\uFFFF-]{2,63}|xn--[a-z0-9]{1,59})(?<!-)\\\
+            .?|localhost))(?::\\d{2,5})?(?:[/?#][^\\s]*)?\\Z"
+        tate_url:
+          type: string
+          format: uri
+          description: Link to a full image of this artwork at www.tate.org.uk
+          maxLength: 200
+          pattern: "^(?:[a-z0-9.+-]*)://(?:[^\\s:@/]+(?::[^\\s:@/]*)?@)?(?:(?:25[0-5]|2[0-4]\\\
+            d|[0-1]?\\d?\\d)(?:\\.(?:25[0-5]|2[0-4]\\d|[0-1]?\\d?\\d)){3}|\\[[0-9a-f:.]+\\\
+            ]|([a-z¡-\uFFFF0-9](?:[a-z¡-\uFFFF0-9-]{0,61}[a-z¡-\uFFFF0-9])?(?:\\.(?!-)[a-z¡-\uFFFF\
+            0-9-]{1,63}(?<!-))*\\.(?!-)(?:[a-z¡-\uFFFF-]{2,63}|xn--[a-z0-9]{1,59})(?<!-)\\\
+            .?|localhost))(?::\\d{2,5})?(?:[/?#][^\\s]*)?\\Z"
+        artist:
+          type: string
+          format: uri
+          readOnly: true
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: Session
